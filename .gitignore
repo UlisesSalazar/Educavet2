@@ -1,0 +1,6 @@
+src/
+vendor/
+gulpfile.js
+.env
+package.json
+.DS_Store
