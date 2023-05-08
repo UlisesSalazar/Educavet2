@@ -12,8 +12,8 @@
             </h1>
         </a>
 
-        <p class="header__texto">Una herramineta para tu educacion</p>
-        <p class="header__texto header__texto--modalidad">Tips para el aprendisaje</p>
+        <p class="header__texto">Una herramineta para tu educación</p>
+        <p class="header__texto header__texto--modalidad">Tips para el aprendizaje</p>
         
         </div>
 
