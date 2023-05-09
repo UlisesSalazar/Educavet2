@@ -370,4 +370,15 @@ h3 {
 .header__enlace:hover {
   color: #007df4;
 }
+.header__contenido {
+  padding-top: 10rem;
+}
+@media (min-width: 768px) {
+  .header__contenido {
+    padding-top: 5rem;
+  }
+}
+.header__logo {
+  font-size: clamp(2rem, -0.8rem + 10vw, 8rem);
+}
 /*# sourceMappingURL=app.css.map */
