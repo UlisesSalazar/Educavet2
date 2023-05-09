@@ -19,7 +19,8 @@
     <div class="barra">
         <div class="barra__contenido">
             <a class="barra__logo" href="/">
-                
+                <!-- we will add the logo earring-->
+               
             </a>
             <nav class="navegacion">
                 <a href="/dosis" class="navegacion__enlace">Dosis en equinos </a>
