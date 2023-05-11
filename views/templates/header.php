@@ -19,9 +19,9 @@
     <div class="barra">
         <div class="barra__contenido">
             <a href="/">
-               <h2 class="barra__logo"> 
+               <h1 class="barra__logo"> 
                    EducaVet
-               </h2>
+               </h1>
             </a>
             <nav class="navegacion">
                 <a href="/dosis" class="navegacion__enlace">Dosis en equinos </a>
