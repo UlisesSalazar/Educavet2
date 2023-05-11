@@ -440,4 +440,19 @@ h3 {
     margin-bottom: 0;
   }
 }
+
+.navegacion {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .navegacion {
+    flex-direction: row;
+  }
+}
+.navegacion__enlace {
+  color: #FFFFFF;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
 /*# sourceMappingURL=app.css.map */
