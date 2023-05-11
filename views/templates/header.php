@@ -18,9 +18,10 @@
 
     <div class="barra">
         <div class="barra__contenido">
-            <a class="barra__logo" href="/">
-                <!-- we will add the logo earring-->
-               
+            <a href="/">
+               <h2 class="barra__logo"> 
+                   EducaVet
+               </h2>
             </a>
             <nav class="navegacion">
                 <a href="/dosis" class="navegacion__enlace">Dosis en equinos </a>

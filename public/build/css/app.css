@@ -411,4 +411,33 @@ h3 {
 .header__texto--modalidad {
   font-size: 2rem;
 }
+
+.barra {
+  background-color: #00c8c2;
+}
+.barra__contenido {
+  width: min(95%, 140rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .barra__contenido {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.barra__logo {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, -0.8rem + 10vw, 3rem);
+}
+@media (min-width: 1024px) {
+  .barra__logo {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
 /*# sourceMappingURL=app.css.map */
