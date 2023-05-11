@@ -343,10 +343,10 @@ h3 {
 
 .header {
   min-height: 60rem;
-  background-image: url(../img/grafico.svg), url(../img/logo.png), linear-gradient(to right, #1a1b15, rgba(26, 27, 21, 0.5)), -webkit-image-set(url(../img/titulo-3.avif) 1x, url(../img/titulo-3.webp) 1x, url(../img/titulo-3.jpg) 1x);
-  background-image: url(../img/grafico.svg), url(../img/logo.png), linear-gradient(to right, #1a1b15, rgba(26, 27, 21, 0.5)), image-set(url(../img/titulo-3.avif) 1x, url(../img/titulo-3.webp) 1x, url(../img/titulo-3.jpg) 1x);
+  background-image: url(../img/logo.png), url(../img/logo.png), linear-gradient(to right, #1a1b15, rgba(26, 27, 21, 0.5)), -webkit-image-set(url(../img/titulo-3.avif) 1x, url(../img/titulo-3.webp) 1x, url(../img/titulo-3.jpg) 1x);
+  background-image: url(../img/logo.png), url(../img/logo.png), linear-gradient(to right, #1a1b15, rgba(26, 27, 21, 0.5)), image-set(url(../img/titulo-3.avif) 1x, url(../img/titulo-3.webp) 1x, url(../img/titulo-3.jpg) 1x);
   background-repeat: no-repeat;
-  background-size: 400px, 400px, cover, cover;
+  background-size: 150px, 150px, cover, cover;
   background-position: top left, bottom right, center center, center center;
 }
 .header__contenedor {
