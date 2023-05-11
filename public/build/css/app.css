@@ -454,5 +454,12 @@ h3 {
   color: #FFFFFF;
   font-size: 2.2rem;
   padding: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+.navegacion__enlace:hover {
+  background-color: #FFFFFF;
+  color: #00c8c2;
 }
 /*# sourceMappingURL=app.css.map */
