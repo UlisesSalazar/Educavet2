@@ -5,17 +5,17 @@
                 EducaVet
         </h3>
     <p class="footer__texto"> 
-            EducaVet es una pagina de educación en veterinaria en especifico para el área de equinos
+            EducaVet es una página de enseñanza en Medicina veterinaria en el área de equinos
         </p>
     </div>
     <nav class="">
-        
+
     </nav>
  </div>
     <p class="footer__copyright">
         EducaVet
         <span class="footer__copyright--regular">
-            -Todos los derechos reservados <?php echo date('Y-M'); ?>
+            - Todos los derechos reservados <?php echo date('Y'); ?>
         </span>
     </p>
 

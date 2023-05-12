@@ -462,4 +462,54 @@ h3 {
   background-color: #FFFFFF;
   color: #00c8c2;
 }
+
+.footer {
+  background-color: #00c8c2;
+  margin-top: 5rem;
+  padding-top: 5rem;
+  color: #FFFFFF;
+}
+.footer__grid {
+  width: min(95%, 140rem);
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .footer__grid {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.footer__logo {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, -0.8rem + 10vw, 4rem);
+}
+@media (min-width: 1024px) {
+  .footer__logo {
+    text-align: left;
+    margin-bottom: 0;
+  }
+}
+.footer__texto {
+  line-height: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .footer__texto {
+    text-align: left;
+  }
+}
+.footer__copyright {
+  background-color: #009591;
+  color: #E4F574;
+  margin: 3rem 0 0 0;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.footer--regular {
+  font-weight: 900;
+}
 /*# sourceMappingURL=app.css.map */
