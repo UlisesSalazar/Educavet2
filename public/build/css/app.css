@@ -508,8 +508,9 @@ h3 {
   padding: 2rem 0;
   text-align: center;
   font-size: 1.4rem;
-}
-.footer--regular {
   font-weight: 900;
+}
+.footer__copyright--regular {
+  font-weight: 400;
 }
 /*# sourceMappingURL=app.css.map */
