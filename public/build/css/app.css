@@ -513,4 +513,10 @@ h3 {
 .footer__copyright--regular {
   font-weight: 400;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #2c2c3b;
+  }
+}
 /*# sourceMappingURL=app.css.map */
