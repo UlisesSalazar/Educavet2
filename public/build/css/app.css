@@ -518,13 +518,14 @@ h3 {
   body {
     background-color: #2c2c3b;
   }
-  .barra {
+  .barra, .footer {
     background-color: #1E293B;
   }
-  .footer {
-    background-color: #1E293B;
+  .barra .navegacion__enlace:hover, .footer .navegacion__enlace:hover {
+    background-color: #E4F574;
+    color: #007df4;
   }
-  .footer .footer__copyright {
+  .footer__copyright {
     background-color: #64748B;
   }
 }
