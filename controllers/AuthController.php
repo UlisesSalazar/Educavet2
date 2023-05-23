@@ -59,7 +59,7 @@ class AuthController {
        
     }
 
-    public static function registro(Router $router) {
+    public static function dosis(Router $router) {
         $alertas = [];
         $usuario = new Usuario;
 
@@ -94,7 +94,7 @@ class AuthController {
                     
 
                     if($resultado) {
-                        header('Location: /mensaje');
+                        header('Location: /medicamento/dosis');
                     }
                 }
             }
