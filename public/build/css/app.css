@@ -514,6 +514,19 @@ h3 {
   font-weight: 400;
 }
 
+.menu-redes__enlace::before {
+  color: #FFFFFF;
+  font-size: 2rem;
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smooting: antialiased;
+  font-family: "Font Awesome 6 Brands";
+}
+.menu-redes__ocultar {
+  display: none;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #2c2c3b;

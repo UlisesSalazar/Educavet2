@@ -9,15 +9,7 @@
         </p>
     </div>
     <nav class="menu-redes">
-    <a class="menu-redes__enlaces" rel="noopener noreferrer" target="_blank" href="">
-        <span class="menu-redes__ocultar">facebook</span>
-    </a>
-    <a class="menu-redes__enlaces" href=""></a>
-    <a class="menu-redes__enlaces" href=""></a>
-    &[href*="https://facebook.com"]::before {
-    content: "\f39e";
-
-
+   
     </nav>
  </div>
     <p class="footer__copyright">
