@@ -530,6 +530,7 @@ h3 {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #2c2c3b;
+    color: #FFFFFF;
   }
   .barra, .footer {
     background-color: #1E293B;
