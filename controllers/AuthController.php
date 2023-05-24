@@ -3,6 +3,7 @@
 namespace Controllers;
 
 use Classes\Email;
+use Model\Medicamento;
 use Model\Usuario;
 use MVC\Router;
 
@@ -58,53 +59,18 @@ class AuthController {
         }
        
     }
+    //dataB THE MEDICAL equine
 
     public static function dosis(Router $router) {
-        $alertas = [];
-        $usuario = new Usuario;
-
+     
         if($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-            $usuario->sincronizar($_POST);
-            
-            $alertas = $usuario->validar_cuenta();
-
-            if(empty($alertas)) {
-                $existeUsuario = Usuario::where('email', $usuario->email);
-
-                if($existeUsuario) {
-                    Usuario::setAlerta('error', 'El Usuario ya esta registrado');
-                    $alertas = Usuario::getAlertas();
-                } else {
-                    // Hashear el password
-                    $usuario->hashPassword();
-
-                    // Eliminar password2
-                    unset($usuario->password2);
-
-                    // Generar el Token
-                    $usuario->crearToken();
-
-                    // Crear un nuevo usuario
-                    $resultado =  $usuario->guardar();
-
-                    // Enviar email
-                    $email = new Email($usuario->email, $usuario->nombre, $usuario->token);
-                    $email->enviarConfirmacion();
-                    
-
-                    if($resultado) {
-                        header('Location: /medicamento/dosis');
-                    }
-                }
-            }
+         
         }
 
         // Render a la vista
-        $router->render('auth/registro', [
-            'titulo' => 'Crea tu cuenta en DevWebcamp',
-            'usuario' => $usuario, 
-            'alertas' => $alertas
+        $router->render('medicamento/dosis', [
+            'titulo' => 'Dosis en equinos',  
         ]);
     }
 
