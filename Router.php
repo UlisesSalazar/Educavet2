@@ -48,6 +48,9 @@ class Router
 
         $contenido = ob_get_clean(); // Limpia el Buffer
 
+        //utilizar layout a la url
+        
+
         include_once __DIR__ . '/views/layout.php';
     }
 }
