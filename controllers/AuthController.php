@@ -73,6 +73,7 @@ class AuthController {
             'titulo' => 'Dosis en equinos',  
         ]);
     }
+    
 
     public static function olvide(Router $router) {
         $alertas = [];
