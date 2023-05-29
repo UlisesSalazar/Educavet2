@@ -545,4 +545,15 @@ h3 {
     background-color: #64748B;
   }
 }
+.tabla {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.tabla__icono {
+  font-size: 3.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
 /*# sourceMappingURL=app.css.map */
