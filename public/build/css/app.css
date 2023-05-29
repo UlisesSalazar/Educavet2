@@ -365,13 +365,15 @@ h3 {
   }
 }
 .header__enlace {
+  all: unset;
   color: #FFFFFF;
   font-size: 1.4rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 .header__enlace:hover {
-  color: #007df4;
+  color: #E4F574;
+  cursor: pointer;
 }
 .header__contenido {
   padding-top: 10rem;
