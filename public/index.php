@@ -4,6 +4,7 @@ require_once __DIR__ . '/../includes/app.php';
 
 use MVC\Router;
 use Controllers\AuthController;
+use Controllers\MedicamentoController;
 
 $router = new Router();
 
@@ -14,8 +15,8 @@ $router->post('/login', [AuthController::class, 'login']);
 $router->post('/logout', [AuthController::class, 'logout']);
 
 // dosis de BD
-$router->get('/dosis', [AuthController::class, 'dosis']);
-$router->post('/dosis', [AuthController::class, 'dosis']);
+$router->get('/dosis', [MedicamentoController::class, 'dosis']);
+$router->post('/dosis', [MedicamentoController::class, 'dosis']);
 
 // Formulario de olvide mi password
 $router->get('/olvide', [AuthController::class, 'olvide']);
