@@ -10,9 +10,9 @@ class Medicamento extends ActiveRecord {
     {
         $this->id = $args['id'] ?? null;
         $this->nombre = $args['nombre'] ?? '';
-        $this->apellido = $args['dosis/via/frecuencia'] ?? '';
-        $this->email = $args['indicaciones'] ?? '';
-        $this->password = $args['tiempo'] ?? '';
+        $this->dosis = $args['dosis'] ?? '';
+        $this->indicaciones = $args['indicaciones'] ?? '';
+        $this->tiempo = $args['tiempo'] ?? '';
         
     }
 }
