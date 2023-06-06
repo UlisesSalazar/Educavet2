@@ -534,6 +534,12 @@ h3 {
     background-color: #2c2c3b;
     color: #FFFFFF;
   }
+  .text-center, .table__th {
+    color: #00c8c2;
+  }
+  .table__tr {
+    color: #1E293B;
+  }
   .barra, .footer {
     background-color: #1E293B;
   }
