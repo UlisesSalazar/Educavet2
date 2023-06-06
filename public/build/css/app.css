@@ -556,4 +556,29 @@ h3 {
   justify-content: flex-end;
   align-items: center;
 }
+
+.dashboard {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8FAFC;
+}
+.dashboard__contenido {
+  padding-top: 10rem;
+}
+@media (min-width: 768px) {
+  .dashboard__contenido {
+    padding-top: 5rem;
+  }
+}
+.dashboard__contenedor, .dashboard__formulario {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.dashboard__formulario {
+  width: min(95%, 80rem);
+  margin: 0 auto;
+}
 /*# sourceMappingURL=app.css.map */
