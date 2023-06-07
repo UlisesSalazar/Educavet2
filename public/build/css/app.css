@@ -587,4 +587,20 @@ h3 {
   width: min(95%, 80rem);
   margin: 0 auto;
 }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table__thead {
+  background-color: #1E293B;
+  color: #00c8c2;
+}
+.table__th {
+  padding: 1rem;
+  text-align: left;
+}
+.table__td {
+  padding: 1.5rem 1rem;
+}
 /*# sourceMappingURL=app.css.map */

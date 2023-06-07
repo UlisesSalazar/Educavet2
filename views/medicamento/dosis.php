@@ -10,7 +10,7 @@
  <?php if(!empty($medicamentos)) { ?>
 
     <table class="table">
-        <thead>
+        <thead class="table__thead">
             <tr>
                 <th scope="col" class="table__th">Nombre</th>
                 <th scope="col" class="table__th">Dosis</th>
