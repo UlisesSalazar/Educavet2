@@ -600,6 +600,9 @@ h3 {
   padding: 1rem;
   text-align: left;
 }
+.table__tr:nth-of-type(even) {
+  background-color: #F8FAFC;
+}
 .table__td {
   padding: 1.5rem 1rem;
 }
