@@ -14,7 +14,7 @@
             <tr>
                 <th scope="col" class="table__th">Nombre</th>
                 <th scope="col" class="table__th">especificaciones</th>
-                <th scope="col" class="table__th">Dosis</th>
+                <th scope="col" class="table__th">Dosis/Via/Frecuencia</th>
                 <th scope="col" class="table__th">Indicaciones</th>
             </tr>
             <tbody class="table__tbody">
