@@ -18,14 +18,10 @@ class MedicamentoController {
        }
 
         $registros_por_pagina = 10;
-
         $total = Medicamento::total();
-
-
         $paginacion = new Paginacion($pagina_actual, $registros_por_pagina, $total);
 
-      debuguear($paginacion);
-
+      debuguear($paginacion->pagina_siguiente());
 
         $medicamentos = Medicamento::all();
         
