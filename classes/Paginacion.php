@@ -42,7 +42,7 @@ class Paginacion {
         if($this->pagina_siguiente()) {
             $html .= " <a class=\"paginacion__enlace paginacion__enlace--texto\" href=\"?page={$this->pagina_siguiente()}\">Siguiente &raquo; </a>";
         }
-        return html;
+        return $html;
     } 
     public function paginacion() {
 
@@ -54,7 +54,7 @@ class Paginacion {
             $html .= '</div>';
         }
 
-        return html;
+        return $html;
 
     }
 

@@ -26,7 +26,8 @@ class MedicamentoController {
 
         $router->render('medicamento/dosis', [
             'titulo' => 'Dosis en equinos',
-            'medicamentos' => $medicamentos
+            'medicamentos' => $medicamentos,
+            'paginacion' => $paginacion->paginacion()
         ]);
 
     }

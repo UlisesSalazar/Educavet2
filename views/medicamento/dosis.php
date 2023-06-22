@@ -45,7 +45,9 @@
     <?php }?>
 </div>
 
-
+<?php
+echo $paginacion;
+?>
 
 
 </main>
