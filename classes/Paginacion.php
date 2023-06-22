@@ -32,7 +32,30 @@ class Paginacion {
     public function pagina_siguiente() {
         $siguiente = $this->pagina_actual + 1;
         return ($siguiente <= $this->total_paginas() ) ? $siguiente : false;
-        return $siguiente;
+        
+    }
+    public function enlace_anterior() {
+
+    } 
+    public function enlace_siguiente() {
+        $html = '';
+        if($this->pagina_siguiente()) {
+            $html .= " <a class=\"paginacion__enlace paginacion__enlace--texto\" href=\"?page={$this->pagina_siguiente()}\">Siguiente &raquo; </a>";
+        }
+        return html;
+    } 
+    public function paginacion() {
+
+        $html= '';
+        if($this->total_registros > 1) {
+            $html .= '<div class= "paginacion">';
+            $html .= $this->enlace_siguiente();
+
+            $html .= '</div>';
+        }
+
+        return html;
+
     }
 
 }
