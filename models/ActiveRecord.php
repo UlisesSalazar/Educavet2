@@ -123,6 +123,13 @@ class ActiveRecord {
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
+    //paginacion registro
+    public static function paginar($por_pagina, $offset){
+
+        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT ${por_pagina} OFFSET ${offset} " ;
+        $resultado = self::consultarSQL($query);
+        return  $resultado;
+    }
 
     // Busqueda Where con Columna 
     public static function where($columna, $valor) {

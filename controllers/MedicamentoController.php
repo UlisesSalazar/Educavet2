@@ -21,7 +21,11 @@ class MedicamentoController {
         $total = Medicamento::total();
         $paginacion = new Paginacion($pagina_actual, $registros_por_pagina, $total);
 
-        $medicamentos = Medicamento::all();
+        if($paginacion->total_paginas() < $pagina_actual) {
+            header('Location: /dosis?page=1');
+        }
+
+        $medicamentos = Medicamento::paginar($registros_por_pagina, $paginacion->offset());
         
 
         $router->render('medicamento/dosis', [
