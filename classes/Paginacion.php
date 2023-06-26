@@ -50,12 +50,22 @@ class Paginacion {
         }
         return $html;
     } 
+    public function numeros_paginas() {
+        $html = '';
+        for($i = 1; $i <= $this->total_paginas(); $i++ ){
+
+            $html .= "<a class=\"\" hrfe=\"\">{$i}</a>";
+        }
+        return $html;
+    } 
+
     public function paginacion() {
 
         $html= '';
         if($this->total_registros > 1) {
             $html .= '<div class= "paginacion">';
             $html .= $this->enlace_anterior();
+            $html .= $this->numeros_paginas();
             $html .= $this->enlace_siguiente();
 
             $html .= '</div>';
