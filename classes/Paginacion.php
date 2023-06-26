@@ -54,7 +54,7 @@ class Paginacion {
         $html = '';
         for($i = 1; $i <= $this->total_paginas(); $i++ ){
 
-            $html .= "<a class=\"\" hrfe=\"\">{$i}</a>";
+            $html .= "<a class=\" \" href=\"?page={$i}\">{$i}</a>";
         }
         return $html;
     } 
