@@ -53,8 +53,13 @@ class Paginacion {
     public function numeros_paginas() {
         $html = '';
         for($i = 1; $i <= $this->total_paginas(); $i++ ){
+            if($i === $this->pagina_actual) {
+                $html .= "<span class=\"paginacion__enlace paginacion__enlace--actual\">{$i}</span>";
+            }else{
 
-            $html .= "<a class=\" \" href=\"?page={$i}\">{$i}</a>";
+                $html .= "<a class=\"paginacion__enlace--numero \" href=\"?page={$i}\">{$i}</a>";
+            }
+
         }
         return $html;
     } 
