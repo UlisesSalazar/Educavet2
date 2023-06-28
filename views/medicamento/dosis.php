@@ -16,6 +16,7 @@
                 <th scope="col" class="table__th">especificaciones</th>
                 <th scope="col" class="table__th">Dosis/Via/Frecuencia</th>
                 <th scope="col" class="table__th">Indicaciones</th>
+                <th scope="col" class="table__th">Tiempo</th>
             </tr>
             <tbody class="table__tbody">
                 <?php foreach($medicamentos as $medicamento) { ?>
@@ -31,6 +32,9 @@
                         </td>
                         <td class="table__td">
                             <?php echo $medicamento->indicaciones2; ?>
+                        </td>
+                        <td class="table__td">
+                            <?php echo $medicamento->tiempo; ?>
                         </td>
 
                     </tr>

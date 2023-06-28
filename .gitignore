@@ -4,3 +4,4 @@ gulpfile.js
 .env
 package.json
 .DS_Store
+node_modules/
