@@ -17,7 +17,7 @@ class MedicamentoController {
            header('Location: /dosis?page=1');
        }
 
-        $registros_por_pagina = 10;
+        $registros_por_pagina = 15;
         $total = Medicamento::total();
         $paginacion = new Paginacion($pagina_actual, $registros_por_pagina, $total);
 
