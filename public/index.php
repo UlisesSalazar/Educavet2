@@ -4,6 +4,7 @@ require_once __DIR__ . '/../includes/app.php';
 
 use MVC\Router;
 use Controllers\AuthController;
+use Controllers\APIMedicamentos;
 use Controllers\MedicamentoController;
 
 $router = new Router();
@@ -21,6 +22,9 @@ $router->post('/dosis', [MedicamentoController::class, 'dosis']);
 // Formulario de olvide mi password
 $router->get('/olvide', [AuthController::class, 'olvide']);
 $router->post('/olvide', [AuthController::class, 'olvide']);
+
+//API
+$router->get('/api/medicamentos', [APIMedicamentos::class, 'index']);
 
 // Colocar el nuevo password
 $router->get('/reestablecer', [AuthController::class, 'reestablecer']);
