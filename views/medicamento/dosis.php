@@ -7,15 +7,7 @@
         <i class="fa-sharp fa-solid fa-syringe tabla__icono" style="color: #00c7fc;"></i>
     </div>
 </div>
-<!-- search -->
-<div class="medicamento__campo">
-    <label for="medicamentos" class="medicamento__label">Medicamento: </label>
-        <input
-            type="text"
-            class="medicamento__input"
-            id="medicamentos"
-            placeholder="Buscar medicamento"
-</div>
+
 <div class= "dashboard__contenedor">
  <?php if(!empty($medicamentos)) { ?>
 
