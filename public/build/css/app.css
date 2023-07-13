@@ -325,6 +325,12 @@ img {
   height: auto;
 }
 
+h1, h2, h3 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 900;
+  margin: 2rem 0;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -339,6 +345,18 @@ h3 {
 
 .text-center {
   text-align: center;
+}
+
+[class$=__heading] {
+  color: #E4F574;
+  text-align: center;
+  font-weight: 700;
+}
+
+[class$=__descripcion] {
+  color: #E4F574;
+  text-align: center;
+  font-weight: 700;
 }
 
 .header {
