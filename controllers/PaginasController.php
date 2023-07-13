@@ -8,7 +8,7 @@ class PaginasController{
 
         $router->render('paginas/index', [
 
-            'titulo'=> 'Inicio'
+            'titulo'=> 'Un poco sobre EducaVet'
         ]);
 
     }
