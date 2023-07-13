@@ -12,4 +12,12 @@ class PaginasController{
         ]);
 
     }
+    public static function radiografias(Router $router) {
+
+        $router->render('paginas/radiografias', [
+
+            'titulo'=> 'Inicio'
+        ]);
+
+    }
 }

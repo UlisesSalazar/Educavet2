@@ -37,6 +37,7 @@ $router->get('/confirmar-cuenta', [AuthController::class, 'confirmar']);
 
 //public page
 $router->get('/', [PaginasController::class, 'index']);
+$router->get('/radiografias', [PaginasController::class, 'radiografias']);
 
 
 $router->comprobarRutas();
