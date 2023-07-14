@@ -1,6 +1,6 @@
 <main class="EducaVet"> 
     <h2 class="educavet__heading"><?php echo $titulo; ?></h2>
-    <p class="educavet__descripcion">conoce sobre las herramientas de estudio sobre la veterinaria Equina</p>
+    <p class="educavet__descripcion">Conoce sobre las herramientas de estudio de la veterinaria Equina</p>
     
     <div class="educavet__grid">
         <div class="educavet__imagen">

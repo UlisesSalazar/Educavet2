@@ -357,12 +357,11 @@ h3 {
 }
 
 [class$=__descripcion] {
-  font-family: "Outfit", sans-serif;
-  font-weight: 900;
-  margin: 2rem 0;
-  color: #E4F574;
   text-align: center;
-  margin: 6rem 0 3rem 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #1E293B;
+  margin-bottom: 5rem;
 }
 
 .header {
@@ -676,5 +675,24 @@ h3 {
   .paginacion__enlace--actual {
     display: inline;
   }
+}
+
+.educavet__grid {
+  width: min(95%, 140rem);
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .educavet__grid {
+    display: grid;
+    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: centers;
+  }
+}
+.educavet__texto {
+  line-height: 2;
 }
 /*# sourceMappingURL=app.css.map */
