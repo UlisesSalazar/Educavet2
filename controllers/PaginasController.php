@@ -24,7 +24,7 @@ class PaginasController{
 
         $router->render('paginas/potros', [
 
-            'titulo'=> 'Constantes fisiológicas en potros'
+            'titulo'=> 'Potros'
         ]);
 
     }
