@@ -20,4 +20,12 @@ class PaginasController{
         ]);
 
     }
+    public static function potros(Router $router) {
+
+        $router->render('paginas/potros', [
+
+            'titulo'=> 'Constantes fisiológicas en potros'
+        ]);
+
+    }
 }
