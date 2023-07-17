@@ -26,7 +26,7 @@
             <nav class="navegacion">
                 <a href="/dosis" class="navegacion__enlace">Dosis en equinos </a>
                 <a href="/radiografias" class="navegacion__enlace">Radiografias en equinos</a>
-                <a href="" class="navegacion__enlace"></a>
+                <a href="/potros" class="navegacion__enlace">Potros</a>
                 <a href="" class="navegacion__enlace"></a>
             </nav>
         </div>
