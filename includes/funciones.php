@@ -11,5 +11,5 @@ function s($html) : string {
     return $s;
 }
 function pagina_actual($path) : bool {
-    return str_contains($_SERVER ['PATH_INFO'], $path ) ? true : false;
+   return str_contains( $_SERVER ['PATH_INFO']?? '/', $path ) ? true : false;
 }

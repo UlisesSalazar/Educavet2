@@ -457,6 +457,7 @@ h3 {
   color: #FFFFFF;
   text-align: center;
   margin-bottom: 2rem;
+  white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 3rem);
 }
 @media (min-width: 1024px) {
@@ -483,7 +484,7 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
-.navegacion__enlace:hover {
+.navegacion__enlace--actual, .navegacion__enlace:hover {
   background-color: #FFFFFF;
   color: #00c8c2;
 }
@@ -509,6 +510,7 @@ h3 {
   color: #FFFFFF;
   text-align: center;
   margin-bottom: 2rem;
+  white-space: nowrap;
   font-size: clamp(2rem, -0.8rem + 10vw, 4rem);
 }
 @media (min-width: 1024px) {
@@ -566,7 +568,7 @@ h3 {
   .barra, .footer {
     background-color: #1E293B;
   }
-  .barra .navegacion__enlace:hover, .footer .navegacion__enlace:hover {
+  .barra .navegacion__enlace:hover, .barra .navegacion__enlace--actual, .footer .navegacion__enlace:hover, .footer .navegacion__enlace--actual {
     background-color: #E4F574;
     color: #007df4;
   }
