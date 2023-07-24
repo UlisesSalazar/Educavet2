@@ -2,7 +2,7 @@
     <h2 class="potros__heading"><?php echo $titulo ?></h2>
     <p class="potros__descripcion">Constantes fisiológicas en potros</p>
 <div class="potros__grid">
-    <div class="potro">
+    <div  data-aos="fade-down-right" class="potro">
         <h3 class="potro__nombre">Constantes fisiológicas</h3>
         <ul class="potro__lista">
         <li class="potro__elemento">
