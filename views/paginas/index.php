@@ -2,7 +2,7 @@
     <h2 class="educavet__heading"><?php echo $titulo; ?></h2>
     <p class="educavet__descripcion">Conoce sobre las herramientas de estudio de la veterinaria Equina</p>
     
-    <div class="educavet__grid">
+    <div data-aos="zoom-in" class="educavet__grid">
         <div class="educavet__imagen">
             <picture>
                 <source srcset="build/img/logo.avif" type="image/avif">
