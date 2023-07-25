@@ -5,7 +5,9 @@
         <a href="/login" class="header__enlace">Iniciar Sesion</a> 
     </nav>
     
-    <div data-aos="fade-right" class="header__contenido">
+    <div  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500" class="header__contenido">
         <a href="/">
             <h1 class="header__logo">
                 EducaVet
