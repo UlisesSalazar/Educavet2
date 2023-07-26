@@ -7,7 +7,7 @@
             <picture>
                 <source srcset="build/img/logo.avif" type="image/avif">
                 <source srcset="build/img/logo.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="build/img/logo.jpeg" alt ="imagen EducaVet">
+                <img loading="lazy" width="20" height="300" src="build/img/logo.jpeg" alt ="imagen EducaVet">
             </picture>
         </div>
         <div class="educavet__contenido">

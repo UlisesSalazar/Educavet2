@@ -377,10 +377,10 @@ h3 {
   margin: 0 auto;
 }
 .header__navegacion {
-  padding: 5rem 0;
+  padding: 5rem;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
+  justify-content: space-around;
+  gap: 1rem;
 }
 @media (min-width: 768px) {
   .header__navegacion {

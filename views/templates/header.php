@@ -1,8 +1,7 @@
 <header class = "header">
     <div class = "header__contenedor">
     <nav class="header__navegacion">
-        <a href="/registro" class="header__enlace">Registro</a> 
-        <a href="/login" class="header__enlace">Iniciar Sesion</a> 
+       
     </nav>
     
     <div  data-aos="fade-down"
