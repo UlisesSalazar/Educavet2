@@ -39,6 +39,7 @@ $router->get('/confirmar-cuenta', [AuthController::class, 'confirmar']);
 $router->get('/', [PaginasController::class, 'index']);
 $router->get('/radiografias', [PaginasController::class, 'radiografias']);
 $router->get('/potros', [PaginasController::class, 'potros']);
+$router->get('/404', [PaginasController::class, 'error']);
 
 
 $router->comprobarRutas();

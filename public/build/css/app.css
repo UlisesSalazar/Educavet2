@@ -718,4 +718,11 @@ h3 {
   list-style: none;
   line-height: 2;
 }
+
+.pagina_404__contenedor {
+  text-align: center;
+}
+.pagina_404__enlace {
+  color: #00c8c2;
+}
 /*# sourceMappingURL=app.css.map */
