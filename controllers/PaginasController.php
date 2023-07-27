@@ -16,7 +16,7 @@ class PaginasController{
 
         $router->render('paginas/radiografias', [
 
-            'titulo'=> 'Radiografías en equinos'
+            'titulo'=> 'Imagenología en equinos'
         ]);
 
     }
