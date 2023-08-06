@@ -1,0 +1,6 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.menu-redes {
+    @include m.menu-social(v.$blanco, 2rem);
+}

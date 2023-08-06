@@ -1,0 +1,19 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.potros{
+
+  &__grid{
+      display: flex;
+      justify-content: center;
+  }
+}
+.potro {
+    @include m.card;
+
+    &__lista{
+        @include m.reset-lista;
+        line-height: 2;
+    }
+}
+

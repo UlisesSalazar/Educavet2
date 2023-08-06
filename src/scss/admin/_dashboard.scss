@@ -1,0 +1,29 @@
+
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.dashboard {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: v.$gris-claro;
+
+
+    &__contenido{
+        padding-top: 10rem;
+        @include m.tablet {
+            padding-top: 5rem;
+        }
+    }
+    &__contenedor{
+        @include m.shadow;
+        background-color: v.$blanco;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    &__formulario{
+        @extend .dashboard__contenedor;
+        @include m.contenedor-md;
+    }
+
+}

@@ -1,0 +1,17 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+.tabla{
+ display: flex;
+justify-content: center;
+gap: 3rem;
+
+    &__icono{
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+    }
+   
+}

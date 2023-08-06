@@ -1,0 +1,38 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+@media (prefers-color-scheme: dark) {
+    $grisOscuro: #2c2c3b;
+    body{
+        background-color: $grisOscuro;
+        color: v.$blanco;
+    }
+    //data base
+    .text-center, .table__th{
+        color: v.$secundario;
+    }
+    //databaseMedicamentos
+    .table__tr{
+        color: v.$gris-oscuro;
+    }
+   
+
+    .barra, .footer{
+        background-color: v.$gris-oscuro;
+        .navegacion__enlace{
+           
+        &:hover,  &--actual {
+           background-color: v.$amarillo;
+           color: v.$azul;
+        }
+       
+    }
+}
+        .footer__copyright{
+            background-color: v.$gris;
+           
+     }
+    
+ }
+    
+

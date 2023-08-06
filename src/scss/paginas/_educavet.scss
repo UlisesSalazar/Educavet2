@@ -1,0 +1,17 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as v;
+
+
+.educavet {
+    &__grid {
+        @include m.contenedor;
+        @include m.grid(1, 3rem);
+        @include m.tablet {
+            @include m.grid(2, 5rem);
+            align-items: centers;
+        }
+    }
+    &__texto {
+        line-height: 2;
+    }
+}
