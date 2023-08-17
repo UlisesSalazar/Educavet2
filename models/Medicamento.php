@@ -4,7 +4,7 @@ namespace Model;
 
 class Medicamento extends ActiveRecord {
     protected static $tabla = 'medicamentos';
-    protected static $columnasDB = ['id', 'nombre','especificaciones', 'dosis', 'indicaciones2', 'tiempo', ];
+    protected static $columnasDB = ['id', 'nombre','especificaciones', 'dosis', 'indicaciones2', 'tiempo' ];
 
     public $id;
     public $nombre;
