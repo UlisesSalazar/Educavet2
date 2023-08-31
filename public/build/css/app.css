@@ -726,8 +726,9 @@ h3 {
   color: #00c8c2;
 }
 
-.p {
-  display: flex;
-  justify-content: center;
+.radiografia {
+  padding: 5rem 0;
+  width: min(95%, 140rem);
+  margin: 0 auto;
 }
 /*# sourceMappingURL=app.css.map */
