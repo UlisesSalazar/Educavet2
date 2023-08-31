@@ -725,4 +725,9 @@ h3 {
 .pagina_404__enlace {
   color: #00c8c2;
 }
+
+.p {
+  display: flex;
+  justify-content: center;
+}
 /*# sourceMappingURL=app.css.map */
