@@ -731,4 +731,11 @@ h3 {
   width: min(95%, 140rem);
   margin: 0 auto;
 }
+
+.imagen__heading {
+  color: #007df4;
+}
+.imagen__fecha {
+  color: #00c8c2;
+}
 /*# sourceMappingURL=app.css.map */
