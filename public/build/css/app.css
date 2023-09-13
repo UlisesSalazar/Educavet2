@@ -734,8 +734,12 @@ h3 {
 
 .imagen__heading {
   color: #007df4;
+  margin: 5rem 0;
+  text-align: left;
+  font-size: clamp(1.8rem, -0.8rem + 8vw, 6rem);
 }
 .imagen__fecha {
   color: #00c8c2;
+  margin: 3rem 0 1rem 0;
 }
 /*# sourceMappingURL=app.css.map */
