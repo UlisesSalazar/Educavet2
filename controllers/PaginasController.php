@@ -1,7 +1,9 @@
 <?php
 
 namespace Controllers;
+
 use MVC\Router;
+use Model\Radiografia;
 
 class PaginasController{
     public static function index(Router $router) {
@@ -13,10 +15,12 @@ class PaginasController{
 
     }
     public static function radiografias(Router $router) {
+            $radiografia = new Radiografia;
 
         $router->render('paginas/radiografias', [
 
-            'titulo'=> 'Imagenología en equinos'
+            'titulo'=> 'Imagenología en equinos',
+            'radiografia' => $radiografia
         ]);
 
     }
