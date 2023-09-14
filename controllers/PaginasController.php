@@ -22,7 +22,7 @@ class PaginasController{
             if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 //leer imagen
                 if(!empty($_FILES['imagen']['tmp_imagen'])) {
-                    $carpeta_imagenes = '../public/img/speakers';
+                    $carpeta_imagenes = '../public/img/radiografias';
                     //creando la carpeta si no existe
                     if(!is_dir($carpeta_imagenes)) {
                         mkdir($carpeta_imagenes, 0755, true);
