@@ -13,6 +13,4 @@ class APIMedicamentos {
      echo json_encode($medicamentos);
     }
 
-
-
 }
