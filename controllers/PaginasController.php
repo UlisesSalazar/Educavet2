@@ -18,9 +18,9 @@ class PaginasController{
 
     public static function radiografias(Router $router) {
 
-        $radiografia = Radiografia::all();
+        $radiografias = [];
 
-        debuguear($radiografia);
+       
 
 
             $radiografia = new Radiografia;
@@ -41,7 +41,8 @@ class PaginasController{
         $router->render('paginas/radiografias', [
 
             'titulo'=> 'Imagenología en equinos',
-            'radiografia' => $radiografia
+            'radiografia' => $radiografia,
+            'rediografias' => $radiografias
         ]);
 
     }
