@@ -17,6 +17,12 @@ class PaginasController{
     }
 
     public static function radiografias(Router $router) {
+
+        $radiografia = Radiografia::all();
+
+        debuguear($radiografia);
+
+
             $radiografia = new Radiografia;
 
             if($_SERVER['REQUEST_METHOD'] === 'POST'){
