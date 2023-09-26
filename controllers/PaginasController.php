@@ -18,7 +18,7 @@ class PaginasController{
 
     public static function radiografias(Router $router) {
 
-        $radiografias = radiografia::all();
+        $radiografias = Radiografia::all();
 
 
             $radiografia = new Radiografia;
