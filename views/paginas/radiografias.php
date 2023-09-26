@@ -13,12 +13,16 @@
 
                 <p class="text-center">Noy hay imagenes para mostrar</p>
         <?php } ?>  
+
+        <?php foreach($radiografias as $radiografia) { ?>
             <div class="imagen__listado">
-
+            <picture>
+                    <source srcset="img/radiogrfias/"
+            </picture>
             </div>
- 
+            <?php } ?>
         </div>
-    </div>
 
+    </div>
 
 </main>

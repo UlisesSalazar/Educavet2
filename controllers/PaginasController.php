@@ -18,9 +18,7 @@ class PaginasController{
 
     public static function radiografias(Router $router) {
 
-        $radiografias = [];
-
-       
+        $radiografias = radiografia::all();
 
 
             $radiografia = new Radiografia;
@@ -37,12 +35,12 @@ class PaginasController{
                     $imagen_webp = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('webp', 80);
                 }
             }
-
+          
         $router->render('paginas/radiografias', [
 
             'titulo'=> 'Imagenología en equinos',
             'radiografia' => $radiografia,
-            'rediografias' => $radiografias
+            'radiografias' => $radiografias
         ]);
 
     }
