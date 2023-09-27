@@ -5,7 +5,7 @@
     <div data-aos="zoom-in" class="educavet__grid">
         <div class="educavet__imagen">
             <picture>
-                <source srcset="build/img/logo.avif" type="image/avif">
+                <source srcset="build/img/logo.png" type="image/png">
                 <source srcset="build/img/logo.webp" type="image/webp">
                 <img loading="lazy" width="20" height="300" src="build/img/logo.jpeg" alt ="imagen EducaVet">
             </picture>

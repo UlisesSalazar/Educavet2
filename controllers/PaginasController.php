@@ -20,8 +20,9 @@ class PaginasController{
 
         $radiografias = Radiografia::all();
 
-            $radiografia = new Radiografia;
-
+        $radiografia = new Radiografia;
+    
+        
             if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 //leer imagen
                 if(!empty($_FILES['imagen']['tmp_imagen'])) {
@@ -32,8 +33,22 @@ class PaginasController{
                     }
                     $imagen_png = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('png', 80);
                     $imagen_webp = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('webp', 80);
+                    
+                    $nombre_imagen = md5( uniqid( rand(), true));
+                    
+                    $_POST['imagen'] = $nombre_imagen;
+
+                    
                 }
+                $radiografia->sincronizar($_POST);
+                //guardar imagenes
+                $imagen_png->save($carpeta_imagenes . '/' . $nombre_imagen . ".png");
+                $imagen_webp->save($carpeta_imagenes . '/' . $nombre_imagen . ".webp");
+
+                //saveDB
+                $resultado = $radiografia->guardar();
             }
+
           
         $router->render('paginas/radiografias', [
 

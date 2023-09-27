@@ -10,14 +10,19 @@
         <div class="radiografia">
 
             <picture>
-                <source srcset="<?php echo $_ENV['HOST'] . '/img/radiografias' . $radiografia->imagen; ?>.webp" type="image/webp">
-                <source srcset="<?php echo $_ENV['HOST'] . '/img/radiografias' . $radiografia->imagen; ?>.png" type="image/png">
-                <img src="<?php echo $_ENV['HOST'] . '/img/radiografias/' . $radiografia->imagen; ?>.png" alt="imagen RX">
+                <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.webp" type="image/webp">
+                <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" type="image/png">
+                <img src="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" alt="Imagen Rx"> 
             </picture>
 
         </div>
         <?php } ?>
         
     </section>
+
+    <form method="POST" action="/radiografias" enctype="multipart/form-data" class="imagenesrx">
+        <?php include_once __DIR__ . "/radiografias.php"; ?>
+
+    </form>
 
 </main>
