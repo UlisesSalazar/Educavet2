@@ -9,7 +9,7 @@ class APIMedicamentos {
 
     public static function index() {
 
-     $medicamentos = Medicamento::all();
+     $medicamentos = Medicamento::all('ASC');
      echo json_encode($medicamentos);
     }
 

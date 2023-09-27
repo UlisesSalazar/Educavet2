@@ -20,13 +20,12 @@ class PaginasController{
 
         $radiografias = Radiografia::all();
 
-
             $radiografia = new Radiografia;
 
             if($_SERVER['REQUEST_METHOD'] === 'POST'){
                 //leer imagen
                 if(!empty($_FILES['imagen']['tmp_imagen'])) {
-                    $carpeta_imagenes = '../public/img/radiografias';
+                    $carpeta_imagenes = '../public/build/img/radiografias';
                     //creando la carpeta si no existe
                     if(!is_dir($carpeta_imagenes)) {
                         mkdir($carpeta_imagenes, 0755, true);
@@ -42,8 +41,8 @@ class PaginasController{
             'radiografia' => $radiografia,
             'radiografias' => $radiografias
         ]);
-
     }
+
 
     public static function potros(Router $router) {
 
