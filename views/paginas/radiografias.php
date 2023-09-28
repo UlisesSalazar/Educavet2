@@ -17,7 +17,7 @@
 
             <div class="radiografia__informacion">
                 <h4 class="radiografia__nombre">
-                    <?php echo $radiografia->nombre . '' . $radiografia->apellido; ?>
+                    <?php echo $radiografia->nombre . '. ' . $radiografia->apellido; ?>
                 </h4>
                 <ul class="radiografia__listado-skills">
                     <?php
