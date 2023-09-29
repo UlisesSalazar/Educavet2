@@ -760,11 +760,10 @@ h3 {
 @media (min-width: 1200px) {
   .radiografias__grid {
     display: grid;
-    gap: 5rem;
+    gap: 4rem;
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 .radiografia {
   border: 1px solid #edf8a4;
   padding: 3rem;

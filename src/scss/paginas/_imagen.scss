@@ -30,8 +30,11 @@ padding: 5rem 0;
             @include m.grid(2, 5rem);   
         }
         @include m.xl_desktop{
-            @include m.grid(3, 5rem);
+            @include m.grid(3, 4rem);
         }
+    }
+    &__listado-skills{
+
     }
 }
 .radiografia{
