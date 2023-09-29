@@ -6,6 +6,7 @@
         <h3 class="imagen__heading"> Rx</h3>
         <p class="imagen__fecha">Radiología clínica del caballo</p>
 
+    <div class="radiografias__grid">
         <?php foreach($radiografias as $radiografia) { ?>
         <div class="radiografia">
 
@@ -33,6 +34,7 @@
         </div>
         <?php } ?>
         
+    </div>
     </section>
 
     <form method="POST" action="/radiografias" enctype="multipart/form-data" class="imagenesrx">
