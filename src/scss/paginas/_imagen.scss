@@ -23,7 +23,7 @@ padding: 5rem 0;
 
 .radiografias {
 
-    &__grid{
+    &__grid {
         @include m.contenedor;
         @include m.grid(1, 5rem);
         @include m.tablet{
@@ -33,10 +33,12 @@ padding: 5rem 0;
             @include m.grid(3, 4rem);
         }
     }
-    &__listado-skills{
-
-    }
+  
 }
 .radiografia{
     @include m.card;
+    
+    &__listado-skills{
+        @include m.tags;
+    }
 }

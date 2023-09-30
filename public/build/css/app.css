@@ -764,6 +764,7 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
 .radiografia {
   border: 1px solid #edf8a4;
   padding: 3rem;
@@ -772,5 +773,22 @@ h3 {
   font-weight: 900;
   font-size: 2.6rem;
   margin: 2rem 0;
+}
+.radiografia__listado-skills {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+.radiografia__listado-skills > li {
+  background-color: #007df4;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=app.css.map */

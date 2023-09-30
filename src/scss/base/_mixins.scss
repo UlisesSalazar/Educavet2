@@ -145,6 +145,17 @@
     gap: 1.5rem;
     margin-top: 1.5rem;
 
+    > li {
+        background-color: v.$azul;
+        padding: 1rem;
+        border-radius: .5rem;
+        font-size: 1.4rem;
+        font-weight: v.$bold;
+        color: v.$blanco;
+        
+
+    }
+
 }
 
 @mixin card {
