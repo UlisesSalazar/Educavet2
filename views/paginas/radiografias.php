@@ -1,4 +1,4 @@
-<main class="radiografia">
+<main class="radiografiaRx">
     <h2 class="radiografias__heading"><?php echo $titulo; ?></h2>
     <p class="radiografia__descripcion">Radiología clínica del caballo</p>
     

@@ -2,7 +2,7 @@
 @use 'base/variables' as v;
 
 
-.radiografia{
+.radiografiaRx{
 padding: 5rem 0;
 @include m.contenedor;
      
@@ -30,14 +30,30 @@ padding: 5rem 0;
             @include m.grid(2, 5rem);   
         }
         @include m.xl_desktop{
-            @include m.grid(3, 4rem);
+            @include m.grid(3, 5rem);
+            align-items: flex-start;
         }
     }
   
 }
+
 .radiografia{
     @include m.card;
-    
+    background-position: center top;
+    background-size: 350px;
+    background-repeat: no-repeat;
+
+    @for $i from 1 through 4 {
+        &:nth-child(4n + #{$i}) {
+           background-image: image-set(
+               url('../../../public/build/img/bg_#{$i}.avif') 1x,
+               url('../../../public/build/img/bg_#{$i}.webp') 1x,
+               url('../../../public/build/img/bg_#{$i}.png') 1x
+                   
+           );
+        }
+    }
+ 
     &__listado-skills{
         @include m.tags;
     }
