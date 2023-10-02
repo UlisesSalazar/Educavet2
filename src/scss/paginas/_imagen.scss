@@ -51,9 +51,18 @@ padding: 5rem 0;
              url('../img/bg_#{$i}.avif') 1x,
              url('../img/bg_#{$i}.webp') 1x,
              url('../img/bg_#{$i}.png') 1x
+ 
 
              );
+            
          }
+         
+     }
+     &__imagen{
+        min-width: 400px;
+        @include m.tablet{
+            min-width: unset;
+        }
      }
         
         

@@ -14,7 +14,7 @@
             <picture>
                 <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.webp" type="image/webp">
                 <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" type="image/png">
-                <img class="rx__imagen" loading="lazy" width="200" height="300" <?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" alt="Imagen Rx"> 
+                <img class="rx__imagen" loading="lazy" width="400" height="500" <?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" alt="Imagen Rx"> 
             </picture>
 
             <div class="radiografia__informacion">
