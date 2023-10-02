@@ -8,6 +8,7 @@
 
     <div class="radiografias__grid">
         <?php foreach($radiografias as $radiografia) { ?>
+
         <div class="radiografia">
 
             <picture>
@@ -32,7 +33,7 @@
                 </ul>
             </div>
         </div>
-        <?php } ?>
+    <?php } ?>
         
     </div>
     </section>
