@@ -801,6 +801,9 @@ h3 {
     min-width: unset;
   }
 }
+.radiografia__nombre {
+  font-size: 2rem;
+}
 .radiografia__listado-skills {
   margin: 0;
   padding: 0;
