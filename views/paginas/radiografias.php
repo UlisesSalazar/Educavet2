@@ -9,7 +9,7 @@
     <div class="radiografias__grid">
         <?php foreach($radiografias as $radiografia) { ?>
 
-        <div class="radiografia">
+        <div data-aos="zoom-in-up" class="radiografia">
 
             <picture>
                 <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.webp" type="image/webp">
@@ -17,7 +17,7 @@
                 <img class="rx__imagen" loading="lazy" width="400" height="500" <?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" alt="Imagen Rx"> 
             </picture>
 
-            <div class="radiografia__informacion">
+            <div  class="radiografia__informacion">
                 <h4 class="radiografia__nombre">
                     <?php echo $radiografia->nombre . '. ' . $radiografia->apellido; ?>
                 </h4>
