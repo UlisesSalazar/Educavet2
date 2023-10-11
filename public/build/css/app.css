@@ -704,7 +704,7 @@ h3 {
 }
 
 .potro {
-  border: 1px solid #edf8a4;
+  border: 2px solid #00fbf3;
   padding: 3rem;
 }
 .potro__nombre {
@@ -742,6 +742,13 @@ h3 {
   color: #00c8c2;
   margin: 3rem 0 1rem 0;
 }
+.imagen__icono {
+  font-size: 3.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+}
 
 .radiografias__grid {
   width: min(95%, 140rem);
@@ -766,7 +773,7 @@ h3 {
 }
 
 .radiografia {
-  border: 1px solid #edf8a4;
+  border: 2px solid #00fbf3;
   padding: 3rem;
   background-position: center top;
 }

@@ -3,7 +3,10 @@
     <p class="radiografia__descripcion">Radiología clínica del caballo</p>
     
     <section class="imagenes">
-        <h3 class="imagen__heading"> Rx</h3>
+        <div class="imagen__icono">
+        <h3 class="imagen__heading"> Conceptos de la  Rx</h3>
+            <i class="fa-solid fa-horse" style="color: #d4e114;"></i>
+        </div>
         <p class="imagen__fecha">Las cuadricualas o rejillas, se utilizan para absorber los residuos de dispersos de la radiación. En la radiografía digital tiene problemas, se requiere obtener asesoramiento especializado.</p>
 
     <div class="radiografias__grid">
