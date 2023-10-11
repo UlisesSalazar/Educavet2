@@ -38,29 +38,9 @@ padding: 5rem 0;
 }
 
 .radiografia{
-     @include m.card;
+      @include m.card;
     background-position: center top;
-     background-size: 290px;
-     background-repeat: no-repeat;
-     
-
-     @for $i from 1 through 4 {
-
-         &:nth-child(4n + #{$i}) {
-     
-         
-             background-image: 
-             image-set(
-             url('../img/bg_#{$i}.avif') 1x,
-             url('../img/bg_#{$i}.webp') 1x,
-             url('../img/bg_#{$i}.png') 1x
-            
-                
-             );
-           
-         }
-         
-     }
+    
      
      &__imagen{
         min-width: 400px;
