@@ -783,7 +783,7 @@ h3 {
   margin: 2rem 0;
 }
 .radiografia__imagen {
-  min-width: 400px;
+  min-width: 500px;
 }
 @media (min-width: 768px) {
   .radiografia__imagen {

@@ -1,10 +1,10 @@
 <main class="radiografiaRx">
     <h2 class="radiografias__heading"><?php echo $titulo; ?></h2>
-    <p class="radiografia__descripcion">Radiología clínica del caballo</p>
+    <p class="radiografia__descripcion">Conceptos de la básicos de la radiología</p>
     
     <section class="imagenes">
         <div class="imagen__icono">
-        <h3 class="imagen__heading"> Conceptos de la  Rx</h3>
+        <h3 class="imagen__heading"> Radiología clínica del caballo </h3>
             <i  data-aos="fade-left" class="fa-solid fa-horse" style="color: #d4e114;"></i>
         </div>
         <p class="imagen__fecha">Las cuadricualas o rejillas, se utilizan para absorber los residuos de dispersos de la radiación. En la radiografía digital tiene problemas, se requiere obtener asesoramiento especializado.</p>
@@ -17,7 +17,7 @@
             <picture>
                 <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.webp" type="image/webp">
                 <source srcset="<?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" type="image/png">
-                <img class="rx__imagen" loading="lazy" width="500" height="500" <?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png" alt="Imagen Rx"> 
+                <img class="rx__imagen" loading="lazy" width="600" height="600" <?php echo $_ENV['HOST'] . '/build/img/radiografias/' . $radiografia->imagen; ?>.png alt="Imagen Rx"> 
             </picture>
 
             <div  class="radiografia__informacion">

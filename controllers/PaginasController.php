@@ -11,7 +11,7 @@ class PaginasController{
 
         $router->render('paginas/index', [
 
-            'titulo'=> 'Un poco sobre EducaVet'
+            'titulo'=> 'Bienvenidos a EducaVet'
         ]);
 
     }
@@ -31,8 +31,8 @@ class PaginasController{
                     if(!is_dir($carpeta_imagenes)) {
                         mkdir($carpeta_imagenes, 0755, true);
                     }
-                    $imagen_png = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('png', 80);
-                    $imagen_webp = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('webp', 80);
+                    $imagen_png = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('png', 90);
+                    $imagen_webp = Image::make($_FILES['imagen']['tmp_name'])->fit(800,800)->encode('webp', 90);
                     
                     $nombre_imagen = md5( uniqid( rand(), true));
                     
@@ -46,7 +46,7 @@ class PaginasController{
                 $imagen_webp->save($carpeta_imagenes . '/' . $nombre_imagen . ".webp");
 
                 //saveDB
-                $resultado = $radiografia->guardar();
+                // $resultado = $radiografia->guardar();
             }
 
           

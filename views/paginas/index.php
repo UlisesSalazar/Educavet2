@@ -11,13 +11,18 @@
             </picture>
         </div>
         <div class="educavet__contenido">
-            <p class="educavet__texto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-                 Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" </p>
+            <p class="educavet__texto">EducaVet es una página donde puedes encontrar la información que necesitas sobre medicina veterinaria en el área de equinos. 
+                Nos enorgullece ofrecer soluciones innovadoras para tu comprensión en la especie, es de alta calidad la información que tenemos para satisfacer tus necesidades y dudas. Explora nuestro sitio y ve las diferentes ramas de información 
+                 que tenemos para ti. </p>
 
-            <p class="educavet__texto">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-                 Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-                 Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" </p>
+            <p class="educavet__texto"> Misión:
+            Nuestra misión es proporcionar soluciones para el entendimiento en las diferentes materias y que tengas una herramienta más para comprender, analizar y estudiar la especie equina. </p>
+        
+           <p class="educavet__texto"> Visión:
+            Nuestra visión es que todas las personas interesadas en la especie, tengan más recursos de alta calidad para su estudio, así como de simplificar algunos temas para su mayor entendimiento de la especie. Nos comprometemos a mantenernos actualizados con las materias y la tecnología, 
+            para brindar a los estudiantes de veterinaria en el área de equinos, el entendimiento, estudio y la mejor experiencia posible en nuestra página web.
+        
+                ¡Gracias por visitarnos!</p>
         </div>
     </div>
 

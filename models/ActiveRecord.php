@@ -90,50 +90,50 @@ class ActiveRecord {
         }
     }
 
-    // Registros - CRUD
-    public function guardar() {
-        $resultado = '';
-        if(!is_null($this->id)) {
-            // actualizar
-            $resultado = $this->actualizar();
-        } else {
-            // Creando un nuevo registro
-            $resultado = $this->crear();
-        }
-        return $resultado;
-    }
+    // // Registros - CRUD
+    // public function guardar() {
+    //     $resultado = '';
+    //     if(!is_null($this->id)) {
+    //         // actualizar
+    //         $resultado = $this->actualizar();
+    //     } else {
+    //         // Creando un nuevo registro
+    //         $resultado = $this->crear();
+    //     }
+    //     return $resultado;
+    // }
 
     // Obtener todos los Registros
     public static function all($orden = 'DESC') {
-        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id ${orden}";
+        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id $orden";
         $resultado = self::consultarSQL($query);
         return $resultado;
     }
 
     // Busca un registro por su id
     public static function find($id) {
-        $query = "SELECT * FROM " . static::$tabla  ." WHERE id = ${id}";
+        $query = "SELECT * FROM " . static::$tabla  ." WHERE id = $id";
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
 
     // Obtener Registros con cierta cantidad
     public static function get($limite) {
-        $query = "SELECT * FROM " . static::$tabla . " LIMIT ${limite} ORDER BY id DESC" ;
+        $query = "SELECT * FROM " . static::$tabla . " LIMIT $limite ORDER BY id DESC" ;
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
     //paginacion registro
     public static function paginar($por_pagina, $offset){
 
-        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT ${por_pagina} OFFSET ${offset} " ;
+        $query = "SELECT * FROM " . static::$tabla . " ORDER BY id DESC LIMIT $por_pagina OFFSET $offset " ;
         $resultado = self::consultarSQL($query);
         return  $resultado;
     }
 
     // Busqueda Where con Columna 
     public static function where($columna, $valor) {
-        $query = "SELECT * FROM " . static::$tabla . " WHERE ${columna} = '${valor}'";
+        $query = "SELECT * FROM " . static::$tabla . " WHERE $columna = '$valor'";
         $resultado = self::consultarSQL($query);
         return array_shift( $resultado ) ;
     }
@@ -142,7 +142,7 @@ class ActiveRecord {
     public static function total($columna= '', $valor= '')  {
         $query = "SELECT COUNT(*) FROM " . static::$tabla;
         if($columna){
-            $query .= " WHERE ${columna} = ${valor}";
+            $query .= " WHERE $columna = $valor";
         }
         $resultado = self::$db->query($query);
         $total = $resultado->fetch_array();

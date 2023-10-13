@@ -54,7 +54,7 @@ padding: 5rem 0;
     
      
      &__imagen{
-        min-width: 400px;
+        min-width: 500px;
         @include m.tablet{
             min-width: unset;
         }
