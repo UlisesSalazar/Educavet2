@@ -58,7 +58,7 @@ class PaginasController{
         ]);
     }
 
-
+        //pagePotros
     public static function potros(Router $router) {
 
         $router->render('paginas/potros', [

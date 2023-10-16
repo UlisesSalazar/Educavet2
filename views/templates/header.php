@@ -28,7 +28,7 @@
             </a>
             <nav class="navegacion">
                 <a href="/dosis" class="navegacion__enlace <?php echo pagina_actual('/dosis') ? 'navegacion__enlace--actual' : ''; ?>" >Dosis en equinos </a>
-                <a href="/radiografias" class="navegacion__enlace <?php echo pagina_actual('/radiografias') ? 'navegacion__enlace--actual' : ''; ?>">Radiografias en equinos</a>
+                <a href="/radiografias" class="navegacion__enlace <?php echo pagina_actual('/radiografias') ? 'navegacion__enlace--actual' : ''; ?>">Imagenología en equidos</a>
                 <a href="/potros" class="navegacion__enlace <?php echo pagina_actual('/potros') ? 'navegacion__enlace--actual' : ''; ?>">Potros</a>
                 <a href="" class="navegacion__enlace"></a>
             </nav>
