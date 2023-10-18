@@ -41,6 +41,7 @@ $router->get('/radiografias', [PaginasController::class, 'radiografias']);
 $router->post('/radiografias', [PaginasController::class, 'radiografias']);
 $router->get('/potros', [PaginasController::class, 'potros']);
 $router->get('/404', [PaginasController::class, 'error']);
+$router->get('/peso', [PaginasController::class, 'peso']);
 
 
 $router->comprobarRutas();

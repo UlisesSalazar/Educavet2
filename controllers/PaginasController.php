@@ -49,7 +49,7 @@ class PaginasController{
                 // $resultado = $radiografia->guardar();
             }
 
-          
+           
         $router->render('paginas/radiografias', [
 
             'titulo'=> 'Imagenología en equinos',
@@ -71,6 +71,15 @@ class PaginasController{
 
         $router->render ('paginas/error', [
             'titulo' => 'Página no encontrada'
+        ]);
+
+    }
+
+    //kgpage
+    public static function peso(Router $router) {
+
+        $router->render( 'paginas/peso', [
+            'titulo' =>  'Peso estimado del caballo'
         ]);
 
     }

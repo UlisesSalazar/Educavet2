@@ -185,20 +185,20 @@ class ActiveRecord {
         }
 
         // Consulta SQL
-        $query = "UPDATE " . static::$tabla ." SET ";
-        $query .=  join(', ', $valores );
-        $query .= " WHERE id = '" . self::$db->escape_string($this->id) . "' ";
-        $query .= " LIMIT 1 "; 
+    //     $query = "UPDATE " . static::$tabla ." SET ";
+    //     $query .=  join(', ', $valores );
+    //     $query .= " WHERE id = '" . self::$db->escape_string($this->id) . "' ";
+    //     $query .= " LIMIT 1 "; 
 
-        // Actualizar BD
-        $resultado = self::$db->query($query);
-        return $resultado;
-    }
+    //     // Actualizar BD
+    //     $resultado = self::$db->query($query);
+    //     return $resultado;
+    // }
 
     // Eliminar un Registro por su ID
-    public function eliminar() {
-        $query = "DELETE FROM "  . static::$tabla . " WHERE id = " . self::$db->escape_string($this->id) . " LIMIT 1";
-        $resultado = self::$db->query($query);
-        return $resultado;
-    }
-}
+    // public function eliminar() {
+    //     $query = "DELETE FROM "  . static::$tabla . " WHERE id = " . self::$db->escape_string($this->id) . " LIMIT 1";
+    //     $resultado = self::$db->query($query);
+    //     return $resultado;
+     }
+ }
