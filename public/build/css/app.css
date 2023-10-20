@@ -691,7 +691,7 @@ h3 {
     display: grid;
     gap: 5rem;
     grid-template-columns: repeat(2, 1fr);
-    align-items: centers;
+    align-items: center;
   }
 }
 .educavet__texto {
@@ -809,5 +809,27 @@ h3 {
   font-size: 1.4rem;
   font-weight: 700;
   color: #FFFFFF;
+}
+
+.peso__descripcion {
+  color: #007df4;
+  font-size: 1rem;
+}
+.peso__grid {
+  width: min(95%, 140rem);
+  margin: 0 auto;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+@media (min-width: 768px) {
+  .peso__grid {
+    display: grid;
+    gap: 30rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.peso__grid__texto {
+  line-height: 3;
 }
 /*# sourceMappingURL=app.css.map */
