@@ -816,6 +816,10 @@ h3 {
   font-size: 1rem;
   align-content: flex-start;
 }
+.peso__texto {
+  text-align: center;
+  font-weight: 700;
+}
 .peso__grid {
   width: min(95%, 140rem);
   margin: 0 auto;
@@ -826,11 +830,8 @@ h3 {
 @media (min-width: 768px) {
   .peso__grid {
     display: grid;
-    gap: 30rem;
+    gap: 15rem;
     grid-template-columns: repeat(2, 1fr);
   }
-}
-.peso__grid__texto {
-  line-height: 3;
 }
 /*# sourceMappingURL=app.css.map */

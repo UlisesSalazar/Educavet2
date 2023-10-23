@@ -10,6 +10,10 @@
        align-content: flex-start;
       
        }
+    &__texto{
+        text-align: center;
+        font-weight: v.$bold;
+    }
 
     &__grid {
         
@@ -17,15 +21,11 @@
         
         @include m.grid(1, 3rem);
         @include m.tablet{
-            @include m.grid (2, 30rem);
-           
-            
-            
-            
+            @include m.grid (2, 15rem);
+        
         }
-        &__texto{
-          line-height: 3;
-        }
+      
     }
+  
    
 }
