@@ -14,6 +14,13 @@
     <div class="peso__contenido">
         <!-- the data will go here -->
         <p class="peso__texto">Ingresa aqui el dato de PT</p>
+        <form class="calculoPeso">
+            <fieldset>
+                <label for="Titulo">Perimetro Torácico:</label>
+                <input type="number" placeholder="Ingresa el P.T. en metros">
+            </fieldset>
+
+        </form>
     </div>
 
     </div>

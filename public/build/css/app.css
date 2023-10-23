@@ -814,6 +814,7 @@ h3 {
 .peso__descripcion {
   color: #007df4;
   font-size: 1rem;
+  align-content: flex-start;
 }
 .peso__grid {
   width: min(95%, 140rem);

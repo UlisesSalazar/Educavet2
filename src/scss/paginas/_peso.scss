@@ -5,19 +5,27 @@
 .peso {
 
     &__descripcion{
-     color: v.$azul;
-     font-size: 1rem;
-    }
+        color: v.$azul;
+        font-size: 1rem;
+       align-content: flex-start;
+      
+       }
 
     &__grid {
+        
         @include m.contenedor;
+        
         @include m.grid(1, 3rem);
         @include m.tablet{
             @include m.grid (2, 30rem);
+           
+            
+            
             
         }
         &__texto{
           line-height: 3;
         }
     }
+   
 }
