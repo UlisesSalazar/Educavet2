@@ -13,15 +13,20 @@
         </div>
     <div class="peso__contenido">
         <!-- the data will go here -->
-        <p class="peso__texto">Ingresa aqui el dato de Perimetro Torácico</p>
+        <p class="peso__texto">Ingresa aquí el dato de Perimetro Torácico</p>
     
-        <form class="calculoPeso">
+        <form class="peso__calculo">
             <fieldset>
-                <label for="Titulo">Perimetro Torácico:</label>
-                <input type="number" id="perimetro" placeholder="Ingresa el P.T. Ej:2.5">
+                <select class="peso__opcion">
+                    <option value="1">Caballo</option>
+                    <option value="2">Potro</option>
+                </select>
+                <label for="Titulo">P. Torácico (en metros):</label>
+                <input type="number" id="perimetro" placeholder=" P.T. Ej: 2.5, 0.5 " min="0">
+                <input type="submit" value="Calcular peso" class="peso__boton">
             </fieldset>
-
         </form>
+
     </div>
 
     </div>

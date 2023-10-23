@@ -819,6 +819,7 @@ h3 {
 .peso__texto {
   text-align: center;
   font-weight: 700;
+  color: #02db02;
 }
 .peso__grid {
   width: min(95%, 140rem);
@@ -833,5 +834,15 @@ h3 {
     gap: 15rem;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.peso__opcion {
+  display: block;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.peso__boton {
+  display: block;
+  margin-top: 5rem;
+  justify-content: center;
 }
 /*# sourceMappingURL=app.css.map */
