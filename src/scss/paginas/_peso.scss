@@ -34,11 +34,21 @@
       
     }
     &__boton{
-        display: block;
+        border: none;
+        background-color: inherit;
+        cursor: pointer;
         margin-top: 5rem;
-        
+        color: v.$secundario;
         justify-content: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
     }
+    &__boton:hover {
+        background-color: v.$secundario;
+        color: white;
+    }
+    
 
 
 

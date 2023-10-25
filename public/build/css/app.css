@@ -841,8 +841,18 @@ h3 {
   margin-top: 2rem;
 }
 .peso__boton {
-  display: block;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
   margin-top: 5rem;
+  color: #00c8c2;
   justify-content: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.peso__boton:hover {
+  background-color: #00c8c2;
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */
