@@ -21,7 +21,7 @@
                     <option value="1">Caballo</option>
                     <option value="2">Potro</option>
                 </select>
-                <label for="Titulo">P. Torácico (en metros):</label>
+                <label for="Titulo">P. Torácico (metros):</label>
                 <input type="number" id="perimetro" placeholder=" P.T. Ej: 2.5, 0.5 " min="0">
                 <input type="submit" value="Calcular peso" class="peso__boton">
             </fieldset>

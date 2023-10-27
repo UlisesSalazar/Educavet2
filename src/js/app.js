@@ -1,1 +1,2 @@
 //Objet
+import './calculo.js';
