@@ -842,6 +842,7 @@ h3 {
 }
 .peso__boton {
   border: none;
+  width: 100%;
   background-color: inherit;
   cursor: pointer;
   margin-top: 5rem;
