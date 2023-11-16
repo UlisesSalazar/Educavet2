@@ -1,23 +1,10 @@
- (function calculo(){
+//function EEFE it will be executed if that value
 
-    const calculoInput = document.querySelector('#calcularPeso')
-     
+(function(){
+      const valor1 = document.querySelector("#valor1")
 
-     if(calculoInput){
-        
-        const peso = Number(document.getElementById('valor1').value);
-        const exponente = 3;
-        let r = 1;
+      if( valor1){
 
-       for(let i = 0; i<exponente; i++){
-        resultado = r * peso;
-        }
-       
-       alert(resultado);
-    }
-   
+      }
 
-
- })()
-
-
+})();

@@ -11,22 +11,29 @@
             </picture>
         </div>
 
-        <div class="peso__contenido">
+        <div  id="peso" class="peso__contenido">
             <!-- the data will go here -->
             <p class="peso__texto">Ingresa el dato de Perimetro Torácico</p>
-            <form class="peso__calculo">
+            <form  id="peso" class="peso__calculo">
                 <fieldset>
                     <select class="peso__opcion">
-                        <option id="filtro" value="90">Caballo</option>
-                        <option  id="filtro"  value="80">Potro</option>
+                        <option id="filtroCaballo" value="caballo" name="total[caballo]">Caballo90</option>
+                        <option  id="filtroPotro"  value="potro" name="total[caballo]">Potro80</option>
                     </select>
                     <label for="Titulo">P. Torácico (metros):</label>
-                    <input type="number" id="valor1" placeholder=" P.T.-Ej: 2.5, 0.5 " min="0">
-                    <input type="submit" id="calcularPeso" value="Calcular" class="peso__boton">
+                    <input 
+                    type="text"
+                     id="valor1" 
+                     name="valor1" 
+                     placeholder=" P.T.-Ej: 2.5, 0.5 "
+                     >
+                     
+                    <input type="submit" id="calcularPeso" onclick="calculo()" class="peso__boton">
+                
+                    <div class="total"></div>
                 </fieldset>
             </form>
         </div>
 
  </div>
-
 </main>
