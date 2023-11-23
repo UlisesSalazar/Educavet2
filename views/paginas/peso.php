@@ -17,9 +17,10 @@
             <form  id="peso" class="peso__calculo">
                 <fieldset>
                 <div class="peso__opcion">
-                    <input type="radio" id="valor2" name="caballo" />
+                    <input type="radio" id="valor2" name="caballo" value="caballo"/>
                     <label for="valor2">Caballo</label>
-                    <input type="radio" id="valor3" name="potro" />
+                
+                    <input type="radio" id="valor3" name="caballo" value="potro"/>
                     <label for="valor2">Potro</label>
                 </div>
                     <!-- <select class="peso__opcion">
@@ -34,7 +35,7 @@
                      placeholder=" P.T.-Ej: 2.5, 0.5 "
                      >
 
-                    <!-- <input type="submit" id="calcularPeso" onclick="calculo()" class="peso__boton"> -->
+                    <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
                 
                     <div class="total"></div>
                 </fieldset>
