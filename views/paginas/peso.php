@@ -19,7 +19,6 @@
                 <div class="peso__opcion">
                     <input type="radio" id="valor2" name="caballo" value="caballo"/>
                     <label for="valor2">Caballo</label>
-                
                     <input type="radio" id="valor3" name="caballo" value="potro"/>
                     <label for="valor2">Potro</label>
                 </div>
@@ -29,7 +28,7 @@
                     </select> -->
                     <label for="Titulo">P. Torácico (metros):</label>
                     <input 
-                    type="text"
+                    type="number"
                      id="valor1" 
                      name="valor1" 
                      placeholder=" P.T.-Ej: 2.5, 0.5 "
