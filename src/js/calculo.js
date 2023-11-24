@@ -2,7 +2,7 @@
 
 (function(){
    const valor1 = document.querySelector("#valor1")
-   const valor2 = document.querySelector("#valor2")
+   // const valor2 = document.querySelector("#valor2")
      
       if(valor1){
 
@@ -15,9 +15,14 @@
          if(e.keyCode === 13){
             perimetroT = [...perimetroT, e.target.value.trim()]
             valor1.value = '';
-            console.log(perimetroT)
-
-
+           
+            const base = Number.parseFloat(perimetroT)
+            const exponente = 3
+            let r  = 1
+            for(let i = 0; i < exponente; i++){
+               r = r * base
+            }
+            console.log(r)
          }
        
        }

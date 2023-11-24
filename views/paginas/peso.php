@@ -31,7 +31,7 @@
                     type="number"
                      id="valor1" 
                      name="valor1" 
-                     placeholder=" P.T.-Ej: 2.5, 0.5 "
+                     placeholder="Ej: 2.5, 0.5 "
                      >
 
                     <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
