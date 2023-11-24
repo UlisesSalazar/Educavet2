@@ -15,7 +15,7 @@
          if(e.keyCode === 13){
             perimetroT = [...perimetroT, e.target.value.trim()]
             valor1.value = '';
-           
+           //number to changed
             const base = Number.parseFloat(perimetroT)
             const exponente = 3
             let r  = 1
