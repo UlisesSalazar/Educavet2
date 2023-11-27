@@ -11,11 +11,7 @@
 
       function guardarValor(e) {
          if(e.keyCode === 13){
-         //not caulculation
-            if(e.target.value.trim() === '' || e.target.value < 1){
-               return;
-            }
-            e.preventDefault();
+      
             perimetroT = [...perimetroT, e.target.value.trim()]
             valor1.value = '';
            //number to changed and formulary
@@ -25,10 +21,7 @@
             for(let i = 0; i < exponente; i++){
                r = r * base
             }
-            // if(r) {
-            //    const valor2 = document.querySelector("#valor2")
-               
-            // }
+         
              console.log(r)
          }
          
