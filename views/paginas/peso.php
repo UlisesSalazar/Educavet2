@@ -17,9 +17,9 @@
             <form  id="peso" class="peso__calculo">
                 <fieldset>
                 <div class="peso__opcion">
-                    <input type="radio" id="valor2" name="caballo" value="caballo"/>
+                    <input type="radio" id="valor2" name="caballo" value="caballo80"/>
                     <label for="valor2">Caballo</label>
-                    <input type="radio" id="valor3" name="caballo" value="potro"/>
+                    <input type="radio" id="valor3" name="caballo" value="potro90"/>
                     <label for="valor2">Potro</label>
                 </div>
                     <!-- <select class="peso__opcion">
