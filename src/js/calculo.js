@@ -2,8 +2,11 @@
 
 (function(){
    const valor1 = document.querySelector("#valor1")
-   // const valor2 = document.querySelector("#valor2")
-     
+    const valorCaballo = document.getElementById('valor2') 
+    const valorPotro = document.getElementById('valor3') 
+    
+     console.log(valorPotro)
+
       if(valor1){
          let perimetroT = [];
          //listen to what th write
@@ -20,15 +23,16 @@
             let r  = 1
             for(let i = 0; i < exponente; i++){
                r = r * base
+              
             }
-         
-             console.log(r)
-         }
-         
-       }
-  
-
-   }
-  
+               if( r > 0) {
+               
+                  
+               }
+        }
+            
+     }
+      
+ }
 
 })();
