@@ -838,9 +838,10 @@ h3 {
 .peso__opcion {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  align-items: center;
+  gap: 1.8rem;
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 .peso__boton {
   border: none;

@@ -27,9 +27,10 @@
     &__opcion{
       display:flex;
         justify-content: center;
-        gap: 5rem;
-        margin-bottom: 2rem;
-        margin-top: 2rem;
+        align-items: center;
+        gap: 1.8rem;
+         margin-bottom: 2rem;
+        margin-top: 2.2rem;
     }
     &__boton{
         border: none;
@@ -47,10 +48,6 @@
         background-color: v.$secundario;
         color: white;
     }
-    
 
-
-
-  
    
 }
