@@ -843,6 +843,11 @@ h3 {
   margin-bottom: 2rem;
   margin-top: 2.2rem;
 }
+.peso input[type=radio] {
+  accent-color: #02db02;
+  width: 1.4rem;
+  height: 1.4rem;
+}
 .peso__boton {
   border: none;
   width: 100%;

@@ -29,8 +29,13 @@
         justify-content: center;
         align-items: center;
         gap: 1.8rem;
-         margin-bottom: 2rem;
+        margin-bottom: 2rem;
         margin-top: 2.2rem;
+    }
+    input[type="radio"]{
+        accent-color: v.$verde;
+        width: 1.4rem;
+        height: 1.4rem;
     }
     &__boton{
         border: none;
