@@ -2,8 +2,12 @@
 
 (function(){
    const valor1 = document.querySelector("#valor1")
-    const valorCaballo = document.querySelector("#valor2")
-    const valorPotro = document.querySelector("#valor3") 
+
+   //filtest
+   const equinos = document.querySelectorAll('#peso input[type="radio')
+   console.log(equinos)
+   //  const valorCaballo = document.querySelector("#valor2")
+   //  const valorPotro = document.querySelector("#valor3") 
     
     
 
@@ -26,9 +30,7 @@
               
             }
                if( r > 0) {
-               valorCaballo.addEventListener('click',() => {
-                  console.log("diste click en caballo");
-               })
+          
                   
                }
         }

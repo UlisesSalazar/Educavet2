@@ -16,24 +16,24 @@
             <p class="peso__texto">Ingresa el dato de Perímetro Torácico</p>
             <form  id="peso" class="peso__calculo">
                 <fieldset>
-                <div class="peso__opcion">
+                <div  class="peso__opcion">
                     <label for="valor2">Caballo</label>
                     <input 
                     type="radio" 
                     id="valor2" 
                     name="caballo" 
-                    value="" />
-                    <label for="valor2">Potro</label>
+                    value= "0" />
+                </div>
+                 <div  class="peso__opcion">
+                    <label for="valor3">Potro</label>
                     <input 
                     type="radio" 
                     id="valor3" 
                     name="caballo"
                      value="1"/>
                 </div>
-                    <!-- <select class="peso__opcion">
-                        <option id="filtroCaballo" value="caballo" name="total[caballo]">Caballo90</option>
-                        <option  id="filtroPotro"  value="potro" name="total[caballo]">Potro80</option>
-                    </select> -->
+                
+                <div class="peso__opcion-torax">
                     <label for="Titulo">P. Torácico (metros):</label>
                     <input 
                     type="number"
@@ -41,6 +41,7 @@
                      name="valor1" 
                      placeholder="Ej: 2.5, 0.5 "
                      >
+                </div>
 
                     <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
                 

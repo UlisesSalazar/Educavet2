@@ -835,13 +835,17 @@ h3 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-.peso__opcion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1.8rem;
-  margin-bottom: 2rem;
-  margin-top: 2.2rem;
+@media (min-width: 768px) {
+  .peso__opcion {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2.2rem;
+  }
+}
+.peso__opcion-torax {
+  width: 100%;
 }
 .peso input[type=radio] {
   accent-color: #02db02;

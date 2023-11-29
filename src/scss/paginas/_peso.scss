@@ -25,12 +25,19 @@
     
     }
     &__opcion{
-      display:flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.8rem;
-        margin-bottom: 2rem;
-        margin-top: 2.2rem;
+        @include m.tablet{
+           
+              display:flex;
+                align-items: center;
+                 gap: 1rem;
+                margin-bottom: 2rem;
+                margin-top: 2.2rem;
+           
+        }
+        &-torax{
+           width: 100%;
+        }
+       
     }
     input[type="radio"]{
         accent-color: v.$verde;
