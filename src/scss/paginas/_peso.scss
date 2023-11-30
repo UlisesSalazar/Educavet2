@@ -26,16 +26,16 @@
     }
     &__opcion{
         @include m.tablet{
-           
               display:flex;
                 align-items: center;
-                 gap: 1rem;
+                gap: 1rem;
                 margin-bottom: 2rem;
                 margin-top: 2.2rem;
            
         }
         &-torax{
            width: 100%;
+          
         }
        
     }
@@ -60,6 +60,8 @@
         background-color: v.$secundario;
         color: white;
     }
-
+&__opcion{
+    margin-bottom: 2rem;
+}
    
 }

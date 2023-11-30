@@ -11,7 +11,7 @@
             </picture>
         </div>
 
-        <div  id="peso" class="peso__contenido">
+        <div  id="pesoInicio" class="peso__contenido">
             <!-- the data will go here -->
             <p class="peso__texto">Ingresa el dato de Perímetro Torácico</p>
             <form  id="peso" class="peso__calculo">
