@@ -4,14 +4,18 @@
    const valor1 = document.querySelector("#valor1")
 
    //filtest
-   const equinos = document.querySelectorAll('#peso input[type="radio')
-   console.log(equinos)
+   const equinos  = document.querySelectorAll('#equidos input[type="radio')
+   equinos.forEach(radio => {
+      radio.addEventListener('input', pesoCaballoTotal)
+   })
+   function pesoCaballoTotal(e) {
+      console.log(e)
+   }
    //  const valorCaballo = document.querySelector("#valor2")
    //  const valorPotro = document.querySelector("#valor3") 
-    
-    
+   
 
-      if(valor1, valorCaballo, valorPotro){
+      if(valor1, equinos){
          let perimetroT = [];
          //listen to what th write
          valor1.addEventListener('keypress', guardarValor)
@@ -27,12 +31,8 @@
             let r  = 1
             for(let i = 0; i < exponente; i++){
                r = r * base
-              
             }
-               if( r > 0) {
-          
-                  
-               }
+           
         }
             
      }

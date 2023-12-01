@@ -11,20 +11,20 @@
             </picture>
         </div>
 
-        <div  id="pesoInicio" class="peso__contenido">
+         <div id=equinos class="peso__contenido">
             <!-- the data will go here -->
             <p class="peso__texto">Ingresa el dato de Perímetro Torácico</p>
-            <form  id="peso" class="peso__calculo">
+            <form id="peso" class="peso__calculo">
                 <fieldset>
-                <div  class="peso__opcion">
-                    <label for="valor2">Caballo</label>
+                <div id= "equidos"  class="peso__opcion">
+                    <label  for="valor2">Caballo</label>
                     <input 
                     type="radio" 
                     id="valor2" 
                     name="caballo" 
                     value= "0" />
                 </div>
-                 <div  class="peso__opcion">
+                 <div id="equidos" class="peso__opcion">
                     <label for="valor3">Potro</label>
                     <input 
                     type="radio" 
