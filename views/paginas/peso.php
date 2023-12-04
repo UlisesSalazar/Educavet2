@@ -41,6 +41,8 @@
                      name="valor1" 
                      placeholder="Ej: 2.5, 0.5 "
                      >
+
+                <div id="valores" class="peso__valor"></div>
                 </div>
 
                     <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->

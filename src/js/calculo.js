@@ -13,15 +13,15 @@
 
       if(filtro !== '1'){
         
-
+     
+      //  console.log('seleccionaste caballo')
+        
       }else{
          // console.log('seleccionaste Potro')
       }
    }
-  
-   
 
-      if(valor1, equinos){
+      if(valor1){
          let perimetroT = [];
          //listen to what th write
          valor1.addEventListener('keypress', guardarValor)
@@ -37,14 +37,18 @@
             let r  = 1
             for(let i = 0; i < exponente; i++){
             r = r * base
-          
          }
-         function pesoCaballo(r){
-            return  r * 90
-
-         }
-       const pesoTotal2 = pesoCaballo(r);
-          console.log(`el peso es de ${pesoTotal2}`)
+           function pesoCaballo(r){
+              return  r * 80
+           }
+          const pesoTotal2 = pesoCaballo(r);
+              console.log(`el peso aproximado del Caballo es:  ${pesoTotal2}`)
+              //calculate potro
+              function pesoPotro(r){
+               return  r * 90
+            }
+           const pesoTotal3 = pesoPotro(r);
+               console.log(`el peso aproximado del Potro es: ${pesoTotal3}`)
       }    
                    
    }
