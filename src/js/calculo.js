@@ -9,10 +9,16 @@
       radio.addEventListener('input', pesoCaballoTotal)
    })
    function pesoCaballoTotal(e) {
-      console.log(e)
+      const filtro = e.target.value
+
+      if(filtro !== '1'){
+        
+
+      }else{
+         // console.log('seleccionaste Potro')
+      }
    }
-   //  const valorCaballo = document.querySelector("#valor2")
-   //  const valorPotro = document.querySelector("#valor3") 
+  
    
 
       if(valor1, equinos){
@@ -30,13 +36,18 @@
             const exponente = 3
             let r  = 1
             for(let i = 0; i < exponente; i++){
-               r = r * base
-            }
-           
-        }
-            
-     }
-      
- }
+            r = r * base
+          
+         }
+         function pesoCaballo(r){
+            return  r * 90
+
+         }
+       const pesoTotal2 = pesoCaballo(r);
+          console.log(`el peso es de ${pesoTotal2}`)
+      }    
+                   
+   }
+}
 
 })();

@@ -22,7 +22,7 @@
                     type="radio" 
                     id="valor2" 
                     name="caballo" 
-                    value= "0" />
+                    value= "" />
                 </div>
                  <div id="equidos" class="peso__opcion">
                     <label for="valor3">Potro</label>
