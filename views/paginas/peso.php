@@ -44,10 +44,10 @@
 
                 <div id="valores" class="peso__valor"></div>
                 </div>
-
-                    <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
-                
-                    <div class="total"></div>
+                   <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
+                    <div class="total">
+                       
+                    </div>
                 </fieldset>
             </form>
         </div>

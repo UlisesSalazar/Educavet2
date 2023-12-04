@@ -12,12 +12,16 @@
       const filtro = e.target.value
 
       if(filtro !== '1'){
-        
+      //   const parrafo = document.createElement('p')
+      //   parrafo.textContent = `Peso del Equino es de ...`
+      //    console.log(parrafo) 
+      
      
-      //  console.log('seleccionaste caballo')
+      //   console.log('seleccionaste caballo')
         
       }else{
-         // console.log('seleccionaste Potro')
+        
+          console.log('seleccionaste Potro')
       }
    }
 
@@ -42,13 +46,15 @@
               return  r * 80
            }
           const pesoTotal2 = pesoCaballo(r);
-              console.log(`el peso aproximado del Caballo es:  ${pesoTotal2}`)
+              const pesoValor1 = pesoTotal2
+              console.log(pesoValor1)
               //calculate potro
               function pesoPotro(r){
                return  r * 90
             }
            const pesoTotal3 = pesoPotro(r);
-               console.log(`el peso aproximado del Potro es: ${pesoTotal3}`)
+             const pesoValor2 = pesoTotal3
+             console.log(pesoValor2)
       }    
                    
    }
