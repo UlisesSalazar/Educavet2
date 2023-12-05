@@ -12,9 +12,11 @@
       const filtro = e.target.value
 
       if(filtro !== '1'){
+
+         //seguimos
          const parrafo = document.createElement('p')
-         parrafo.textContent = 'el peso del equino es de...'
          
+
          const aviso  = document.querySelector('.total')
          aviso.appendChild(parrafo)
      

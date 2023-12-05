@@ -13,7 +13,7 @@
     &__texto{
         text-align: center;
         font-weight: v.$bold;
-        color: v.$verde;
+        color: v.$secundario;
     }
     
     &__grid {
@@ -59,6 +59,16 @@
     &__boton:hover {
         background-color: v.$secundario;
         color: white;
+    }
+    &__parrafo{
+        @include m.telefono{
+            display: flex;
+            justify-content: center;
+        
+        }
+        color: v.$secundario;
+       margin-top: 5rem;
+      font-weight: v.$regular;
     }
 &__opcion{
     margin-bottom: 2rem;

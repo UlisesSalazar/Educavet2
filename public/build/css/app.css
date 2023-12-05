@@ -819,7 +819,7 @@ h3 {
 .peso__texto {
   text-align: center;
   font-weight: 700;
-  color: #02db02;
+  color: #00c8c2;
 }
 .peso__grid {
   width: min(95%, 140rem);
@@ -867,6 +867,17 @@ h3 {
 .peso__boton:hover {
   background-color: #00c8c2;
   color: white;
+}
+.peso__parrafo {
+  color: #00c8c2;
+  margin-top: 5rem;
+  font-weight: 400;
+}
+@media (min-width: 480px) {
+  .peso__parrafo {
+    display: flex;
+    justify-content: center;
+  }
 }
 .peso__opcion {
   margin-bottom: 2rem;
