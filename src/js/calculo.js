@@ -44,10 +44,12 @@
             r = r * base
          }
            function pesoCaballo(r){
+            e.preventDefault()
               return  r * 80
            }
           const pesoTotal2 = pesoCaballo(r);
               const pesoValor1 = pesoTotal2
+              document.getElementById('resultado').innerHTML = pesoTotal2
                console.log(pesoTotal2)
               //calculate potro
               let respuesta = document.getElementById('#total')
