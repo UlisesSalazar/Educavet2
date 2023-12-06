@@ -33,6 +33,7 @@
 
       function guardarValor(e) {
          if(e.keyCode === 13){
+                   
       
             perimetroT = [...perimetroT, e.target.value.trim()]
             valor1.value = '';
@@ -42,10 +43,11 @@
             let r  = 1
             for(let i = 0; i < exponente; i++){
             r = r * base
+           
          }
          //calculate Caballo 
            function pesoCaballo(r){
-            e.preventDefault()
+             e.preventDefault()
               return  r * 80
            }
           const pesoTotal2 = pesoCaballo(r);

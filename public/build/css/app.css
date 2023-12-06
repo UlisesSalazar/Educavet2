@@ -868,13 +868,14 @@ h3 {
   background-color: #00c8c2;
   color: white;
 }
-.peso__parrafo {
-  text-align: left;
+.peso__total {
+  text-align: center;
+  font-size: larger;
   color: #00c8c2;
   margin-top: 5rem;
-  font-weight: 400;
+  font-weight: 900;
 }
-.peso__parrafo-activo {
+.peso__total-activo {
   opacity: 0;
 }
 .peso__opcion {

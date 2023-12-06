@@ -60,14 +60,15 @@
         background-color: v.$secundario;
         color: white;
     }
-    &__parrafo{
-        text-align: left;
+    &__total{
+        text-align: center;
+        font-size: larger;
         color: v.$secundario;
        margin-top: 5rem;
-      font-weight: v.$regular;
+      font-weight: v.$black;
     
     }
-    &__parrafo-activo{
+    &__total-activo{
        opacity: 0;
     }
 &__opcion{
