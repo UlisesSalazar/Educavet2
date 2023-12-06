@@ -61,14 +61,14 @@
         color: white;
     }
     &__parrafo{
-        @include m.telefono{
-            display: flex;
-            justify-content: center;
-        
-        }
+        text-align: left;
         color: v.$secundario;
        margin-top: 5rem;
       font-weight: v.$regular;
+    
+    }
+    &__parrafo-activo{
+       opacity: 0;
     }
 &__opcion{
     margin-bottom: 2rem;

@@ -46,8 +46,8 @@
                 </div>
                    <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
                     <div  id="total"class="total">
-                       <p class="peso__parrafo">El peso(aproximado) del Caballo es:</p>
-                       <p class="peso__parrafo">El peso(aproximado) del Potro es:</p>
+                       <p class="peso__parrafo" role="alert">El peso(aproximado) del Caballo es:</p>
+                       <p class="peso__parrafo" id = "respuesta">El peso(aproximado) del Potro es:</p>
                     </div>
                 </fieldset>
             </form>

@@ -869,15 +869,13 @@ h3 {
   color: white;
 }
 .peso__parrafo {
+  text-align: left;
   color: #00c8c2;
   margin-top: 5rem;
   font-weight: 400;
 }
-@media (min-width: 480px) {
-  .peso__parrafo {
-    display: flex;
-    justify-content: center;
-  }
+.peso__parrafo-activo {
+  opacity: 0;
 }
 .peso__opcion {
   margin-bottom: 2rem;

@@ -9,18 +9,16 @@
       radio.addEventListener('input', pesoCaballoTotal)
    })
    function pesoCaballoTotal(e) {
+      e.preventDefault()
       const filtro = e.target.value
 
       if(filtro !== '1'){
-
-         //seguimos
-         const parrafo = document.createElement('p')
          
-
-         const aviso  = document.querySelector('.total')
-         aviso.appendChild(parrafo)
+         //seguimos
+        
+        
      
-      //   console.log('seleccionaste caballo')
+        console.log('seleccionaste caballo')
         
       }else{
         
@@ -50,13 +48,15 @@
            }
           const pesoTotal2 = pesoCaballo(r);
               const pesoValor1 = pesoTotal2
-              
+               console.log(pesoTotal2)
               //calculate potro
+              let respuesta = document.getElementById('#total')
               function pesoPotro(r){
                return  r * 90
             }
            const pesoTotal3 = pesoPotro(r);
              const pesoValor2 = pesoTotal3
+             console.log(pesoTotal3)
              
       }    
                    
