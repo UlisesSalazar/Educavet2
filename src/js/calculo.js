@@ -43,6 +43,7 @@
             for(let i = 0; i < exponente; i++){
             r = r * base
          }
+         //calculate Caballo 
            function pesoCaballo(r){
             e.preventDefault()
               return  r * 80
@@ -50,7 +51,7 @@
           const pesoTotal2 = pesoCaballo(r);
               const pesoValor1 = pesoTotal2
               document.getElementById('resultado').innerHTML = pesoTotal2
-               console.log(pesoTotal2)
+               
               //calculate potro
               let respuesta = document.getElementById('#total')
               function pesoPotro(r){
@@ -58,7 +59,8 @@
             }
            const pesoTotal3 = pesoPotro(r);
              const pesoValor2 = pesoTotal3
-             console.log(pesoTotal3)
+             document.getElementById('resultado2').innerHTML = pesoTotal3
+             
              
       }    
                    

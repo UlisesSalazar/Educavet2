@@ -49,6 +49,7 @@
                        <!-- <p class="peso__parrafo" role="alert">El peso(aproximado) del Caballo es:</p>
                        <p class="peso__parrafo" id = "respuesta">El peso(aproximado) del Potro es:</p> -->
                     </div>
+                    <div id="resultado2" class="total"></div>
                 </fieldset>
             </form>
         </div>
