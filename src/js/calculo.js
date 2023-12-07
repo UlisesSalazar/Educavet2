@@ -10,19 +10,19 @@
    })
    function pesoCaballoTotal(e) {
       e.preventDefault()
+      const cValor = document.getElementById('resultado')
+      const pValor = document.getElementById('resultado2')
       const filtro = e.target.value
 
       if(filtro !== '1'){
          
          //seguimos
-        
-        
      
-        console.log('seleccionaste caballo')
+      //   console.log('seleccionaste caballo')
         
       }else{
         
-          console.log('seleccionaste Potro')
+         //  console.log('seleccionaste Potro')
       }
    }
 
@@ -62,8 +62,7 @@
            const pesoTotal3 = pesoPotro(r);
              const pesoValor2 = pesoTotal3
              document.getElementById('resultado2').innerHTML = pesoTotal3
-             
-             
+               
       }    
                    
    }
