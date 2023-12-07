@@ -45,8 +45,10 @@
                 <div id="valores" class="peso__valor"></div>
                 </div>
                    <!-- <button type="submit" id="calcularPeso" class="peso__boton">Calular</button> -->
-                    <div  id="resultado" class="peso__total"></div>
-                    <div id="resultado2" class="peso__total"></div>
+                   <!-- caballo -->
+                    <div  id="resultado" class="peso__total-activo"></div>
+                    <!-- potro -->
+                    <div id="resultado2" class="peso__total-activo"></div>
                 </fieldset>
             </form>
         </div>

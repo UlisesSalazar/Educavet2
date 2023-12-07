@@ -10,20 +10,19 @@
    })
    function pesoCaballoTotal(e) {
       e.preventDefault()
-      const cValor = document.getElementById('resultado')
-      const pValor = document.getElementById('resultado2')
       const filtro = e.target.value
-
-      if(filtro !== '1'){
+      
+      if(filtro !== '1' ){
+         const cValor = document.getElementById('resultado')
+         cValor.classList.add('peso__total')
+         cValor.classList.remove('peso__total-activo')
          
-         //seguimos
-     
-      //   console.log('seleccionaste caballo')
-        
       }else{
+          const pValor = document.getElementById('resultado2')
+          pValor.classList.add('peso__total')
+          pValor.classList.remove('peso__total-activo')
         
-         //  console.log('seleccionaste Potro')
-      }
+       }
    }
 
       if(valor1){
