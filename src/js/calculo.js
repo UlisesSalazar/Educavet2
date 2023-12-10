@@ -3,13 +3,12 @@
 (function(){
    const valor1 = document.querySelector("#valor1")
 
-   const btnReset =document.querySelector('#reset')
-
-btnReset.addEventListener('click', function(e){
-   console.log(btnReset)
-}) 
-
-
+   //resetPag
+    const btnReset =document.querySelector('#reset')
+    btnReset.addEventListener('click', function(e){
+      window.location.reload()
+      
+      })
 
    //filtest
    const equinos  = document.querySelectorAll('#equidos input[type="radio')
@@ -17,6 +16,7 @@ btnReset.addEventListener('click', function(e){
       radio.addEventListener('input', pesoCaballoTotal)
    })
 
+ 
 
    function pesoCaballoTotal(e) {
       // e.preventDefault()
@@ -73,8 +73,7 @@ btnReset.addEventListener('click', function(e){
                
          } 
     }
-      
-                   
+                       
    }
    
   

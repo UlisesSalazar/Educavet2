@@ -44,7 +44,7 @@
 
                 <div id="valores" class="peso__valor"></div>
                 </div>
-                   <button type="reset" id="reset" class="peso__boton">Limpiar</button>
+                   <button type="reset" id="reset" class="peso__boton">Volver a calcular</button>
                    <!-- caballo -->
                     <div  id="resultado" class="peso__total-activo">
                         <p>el peso estimado del caballo es: </p>
