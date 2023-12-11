@@ -8,7 +8,6 @@
     btnReset.addEventListener('click', function(e){
       e.preventDefault()
       window.location.reload()
-      
       })
 
    //filtest
@@ -33,17 +32,16 @@
           pValor.classList.add('peso__total')
        }
    
-      }
+    }
       
-      if(valor1){
+   if(valor1){
      
-         let perimetroT = [];
+      let perimetroT = [];
          //listen to what th write
          valor1.addEventListener('keypress', guardarValor)
         
 
       function guardarValor(e) {
-
          if(e.keyCode === 13){
           
             perimetroT = [...perimetroT, e.target.value.trim()]
@@ -53,8 +51,7 @@
             const exponente = 3
             let r  = 1
             for(let i = 0; i < exponente; i++){
-            r = r * base   
-           
+            r = r * base    
          }
          //calculate C 
            function pesoCaballo(r){
@@ -63,13 +60,13 @@
            }
           const pesoTotal2 = pesoCaballo(r);
               const pesoValor1 = pesoTotal2
-              document.getElementById('resultado').innerHTML = pesoTotal2
-               
+              document.getElementById('resultado').innerHTML = pesoTotal2  
               //calculate P
               let respuesta = document.getElementById('#total')
               function pesoPotro(r){
                return  r * 90
             }
+            //creatElementHTML
            const pesoTotal3 = pesoPotro(r);
              const pesoValor2 = pesoTotal3
              document.getElementById('resultado2').innerHTML = pesoTotal3
