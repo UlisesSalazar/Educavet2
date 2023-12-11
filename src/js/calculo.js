@@ -6,6 +6,7 @@
    //resetPag
     const btnReset =document.querySelector('#reset')
     btnReset.addEventListener('click', function(e){
+      e.preventDefault()
       window.location.reload()
       
       })
@@ -20,6 +21,7 @@
 
    function pesoCaballoTotal(e) {
       // e.preventDefault()
+
       const filtro = e.target.value
       if(filtro !== '1' ){
          const cValor = document.getElementById('resultado')
@@ -38,11 +40,13 @@
          let perimetroT = [];
          //listen to what th write
          valor1.addEventListener('keypress', guardarValor)
+        
+
 
       function guardarValor(e) {
 
          if(e.keyCode === 13){
-         
+          console.log(keyCode)
             perimetroT = [...perimetroT, e.target.value.trim()]
             valor1.value = '';
            //number to changed and formulary

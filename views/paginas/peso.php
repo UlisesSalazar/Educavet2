@@ -38,21 +38,22 @@
                     <input 
                     type="number"
                      id="valor1" 
-                     name="valor1" 
+                     name="valor1"
+                     onkeypress="return (event.charCode >= 45 && event.charCode <= 57)" 
                      placeholder="Ej: 2.5, 0.5 "
                      >
 
                 <div id="valores" class="peso__valor"></div>
                 </div>
-                   <button type="reset" id="reset" class="peso__boton">Volver a calcular</button>
-                   <!-- caballo -->
-                    <div  id="resultado" class="peso__total-activo">
-                        <p>el peso estimado del caballo es: </p>
-                    </div>
-                    <!-- potro -->
-                    <div id="resultado2" class="peso__total-activo">
+                <!-- caballo -->
+                <div  id="resultado" class="peso__total-activo">
+                    <p>el peso estimado del caballo es: </p>
+                </div>
+                <!-- potro -->
+                <div id="resultado2" class="peso__total-activo">
                     <p>el peso estimado del potro es: </p>
-                    </div>
+                </div>
+                <button type="reset" id="reset" class="peso__boton">Volver a calcular</button>
                 </fieldset>
             </form>
         </div>
