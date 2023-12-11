@@ -33,12 +33,14 @@
           pValor.classList.add('peso__total')
        }
    
-
+      }
+      
       if(valor1){
-
+     
          let perimetroT = [];
          //listen to what th write
          valor1.addEventListener('keypress', guardarValor)
+        
 
       function guardarValor(e) {
 
@@ -77,7 +79,5 @@
                        
    }
    
-  
-}
 
 })();

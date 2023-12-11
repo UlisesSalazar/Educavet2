@@ -74,5 +74,14 @@
 &__opcion{
     margin-bottom: 2rem;
 }
+&__error{
+    padding: 1rem 1rem 1rem 2rem;
+    text-transform: uppercase;
+    color: v.$rojo;
+    max-width: 60rem;
+    font-size: .8rem;
+    background-color: lighten(v.$rojo, 60%);
+    border-left: .5rem solid v.$rojo;
+}
    
 }

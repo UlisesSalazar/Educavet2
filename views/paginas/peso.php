@@ -32,15 +32,15 @@
                     name="caballo"
                      value="1"/>
                 </div>
-                
+                <p class="peso__error">Debes de ingresar solo numeros y al terminar presiona la tecla Enter</p>
                 <div class="peso__opcion-torax">
                     <label for="Titulo">P. Torácico (metros):</label>
                     <input 
                     type="number"
                      id="valor1" 
                      name="valor1"
-                     placeholder="Ej: 2.5, 0.5 "
-                     onkeypress="return (event.charCode >= 46 && event.charCode <= 57)"
+                     placeholder="Ej: 2.5, 0.5, 1.2"
+                     onkeypress="return (event.charCode >= 46 && event.charCode <= 57 )"
                      >
 
                 <div id="valores" class="peso__valor"></div>

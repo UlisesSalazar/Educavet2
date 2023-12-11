@@ -881,4 +881,13 @@ h3 {
 .peso__opcion {
   margin-bottom: 2rem;
 }
+.peso__error {
+  padding: 1rem 1rem 1rem 2rem;
+  text-transform: uppercase;
+  color: rgb(169, 0, 0);
+  max-width: 60rem;
+  font-size: 0.8rem;
+  background-color: #ffdcdc;
+  border-left: 0.5rem solid rgb(169, 0, 0);
+}
 /*# sourceMappingURL=app.css.map */
