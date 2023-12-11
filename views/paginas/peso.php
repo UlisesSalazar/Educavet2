@@ -39,7 +39,7 @@
                     type="number"
                      id="valor1" 
                      name="valor1"
-                     onkeypress="return (event.charCode >= 45 && event.charCode <= 57)" 
+                     onkeypress="return (event.charCode >= 46 && event.charCode <= 57)" 
                      placeholder="Ej: 2.5, 0.5 "
                      >
 
