@@ -39,8 +39,8 @@
                     type="number"
                      id="valor1" 
                      name="valor1"
-                     onkeypress="return (event.charCode >= 46 && event.charCode <= 57)" 
                      placeholder="Ej: 2.5, 0.5 "
+                     onkeypress="return (event.charCode >= 46 && event.charCode <= 57)"
                      >
 
                 <div id="valores" class="peso__valor"></div>
