@@ -47,11 +47,11 @@
                 </div>
                 <!-- caballo -->
                 <div  id="resultado" class="peso__total-activo">
-                    <p>el peso estimado del caballo es: </p>
+                    <p>El peso estimado del caballo es: </p>
                 </div>
                 <!-- potro -->
                 <div id="resultado2" class="peso__total-activo">
-                    <p>el peso estimado del potro es: </p>
+                    <p>El peso estimado del potro es: </p>
                 </div>
                 <button type="reset" id="reset" class="peso__boton">Volver a calcular</button>
                 </fieldset>

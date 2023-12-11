@@ -882,6 +882,8 @@ h3 {
   margin-bottom: 2rem;
 }
 .peso__error {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 1rem 1rem 1rem 2rem;
   text-transform: uppercase;
   color: rgb(169, 0, 0);

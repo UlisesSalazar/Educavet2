@@ -7,7 +7,7 @@
         <h3 class="imagen__heading"> Radiología clínica del caballo </h3>
             <i  data-aos="fade-left" class="fa-solid fa-horse" style="color: #d4e114;"></i>
         </div>
-        <p class="imagen__fecha">Las cuadricualas o rejillas, se utilizan para absorber los residuos de dispersos de la radiación. En la radiografía digital tiene problemas, se requiere obtener asesoramiento especializado.</p>
+        <p class="imagen__fecha">Las cuadriculas o rejillas, se utilizan para absorber los residuos dispersos de la radiación. En la radiografía digital se tiene problemas, se requiere obtener asesoramiento especializado.</p>
 
     <div class="radiografias__grid">
         <?php foreach($radiografias as $radiografia) { ?>
