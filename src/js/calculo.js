@@ -24,12 +24,15 @@
          const cValor = document.getElementById('resultado')
          cValor.classList.add('peso__total')
          cValor.classList.remove('peso__total-activo')
+      
         
       } else {
    
           const pValor = document.getElementById('resultado2')
           pValor.classList.remove('peso__total-activo')
           pValor.classList.add('peso__total')
+          
+          
        }
    
     }
