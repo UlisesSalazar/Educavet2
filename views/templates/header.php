@@ -12,7 +12,7 @@
                 EducaVet
             </h1>
         </a>
-        <p class="header__texto">Una herramineta para tu educación en Equinos</p>
+        <p class="header__texto">Una herramienta para tu educación en Equinos</p>
         <p class="header__texto header__texto--modalidad">Tips para el aprendizaje</p> 
              
         </div>

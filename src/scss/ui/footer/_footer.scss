@@ -3,8 +3,8 @@
 
 .footer {
     background-color: v.$secundario;
-    margin-top: 5rem;
-    padding-top: 5rem;
+    margin-top: 4rem;
+    padding-top: 4rem;
     color: v.$blanco;
 
     &__grid {
@@ -23,6 +23,7 @@
         @include m.tablet {
             text-align: left;
         }
+    
 
     }
     &__copyright {
@@ -37,4 +38,5 @@
             font-weight: v.$regular;
         }
     }
+   
 }
