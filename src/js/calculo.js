@@ -4,11 +4,15 @@
    const valor1 = document.querySelector("#valor1")
 
    //resetPag
-    const btnReset =document.querySelector('#reset')
+    const btnReset = document.querySelector('#reset')
     btnReset.addEventListener('click', function(e){
-      e.preventDefault()
-      window.location.reload()
+       e.preventDefault()
+        window.location.reload()
+     
+      
       })
+     
+
 
    //filtest
    const equinos  = document.querySelectorAll('#equidos input[type="radio')

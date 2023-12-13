@@ -75,7 +75,6 @@
     margin-bottom: 2rem;
 }
 &__error{
-
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem 1rem 1rem 2rem;
@@ -85,6 +84,12 @@
     font-size: .8rem;
     background-color: lighten(v.$rojo, 60%);
     border-left: .5rem solid v.$rojo;
+}
+&__spinner-inactivo{
+  opacity: 0;
+}
+&__spinner{
+    opacity: 1;
 }
    
 }

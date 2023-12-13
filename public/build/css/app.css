@@ -892,6 +892,12 @@ h3 {
   background-color: #ffdcdc;
   border-left: 0.5rem solid rgb(169, 0, 0);
 }
+.peso__spinner-inactivo {
+  opacity: 0;
+}
+.peso__spinner {
+  opacity: 1;
+}
 
 .sk-cube-grid {
   width: 40px;
