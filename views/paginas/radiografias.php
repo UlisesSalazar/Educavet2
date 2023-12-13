@@ -1,6 +1,6 @@
 <main class="radiografiaRx">
     <h2 class="radiografias__heading"><?php echo $titulo; ?></h2>
-    <p class="radiografia__descripcion">Conceptos de la básicos de la radiología</p>
+    <p class="radiografia__descripcion">Conceptos básicos de la radiología</p>
     
     <section class="imagenes">
         <div class="imagen__icono">
