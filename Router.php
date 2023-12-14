@@ -7,18 +7,15 @@ class Router
     public array $getRoutes = [];
     public array $postRoutes = [];
 
-    public function get($url, $fn)
-    {
+    public function get($url, $fn) {
         $this->getRoutes[$url] = $fn;
     }
 
-    public function post($url, $fn)
-    {
+    public function post($url, $fn){
         $this->postRoutes[$url] = $fn;
     }
 
-    public function comprobarRutas()
-    {
+    public function comprobarRutas() {
 
         $url_actual = $_SERVER['PATH_INFO'] ?? '/';
         $method = $_SERVER['REQUEST_METHOD'];
@@ -36,8 +33,7 @@ class Router
         }
     }
 
-    public function render($view, $datos = [])
-    {
+    public function render($view, $datos = []) {
         foreach ($datos as $key => $value) {
             $$key = $value; 
         }
@@ -50,7 +46,6 @@ class Router
 
         //utilizar layout a la url
         
-
         include_once __DIR__ . '/views/layout.php';
     }
 }
