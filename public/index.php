@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../includes/app.php';
 
 use MVC\Router;
-use Controllers\AuthController;
+
 use Controllers\APIMedicamentos;
 use Controllers\PaginasController;
 use Controllers\MedicamentoController;
@@ -11,10 +11,10 @@ use Controllers\MedicamentoController;
 $router = new Router();
 
 
-// Login
-$router->get('/login', [AuthController::class, 'login']);
-$router->post('/login', [AuthController::class, 'login']);
-$router->post('/logout', [AuthController::class, 'logout']);
+ // Login
+//  $router->get('/login', [AuthController::class, 'login']);
+//  $router->post('/login', [AuthController::class, 'login']);
+//  $router->post('/logout', [AuthController::class, 'logout']);
 
 // dosis de BD
 $router->get('/dosis', [MedicamentoController::class, 'dosis']);
