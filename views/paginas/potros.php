@@ -3,7 +3,7 @@
     <p class="potros__descripcion">Constantes fisiológicas en potros</p>
 <div class="potros__grid">
     <div  data-aos="fade-down-right" class="potro">
-        <h3 class="potro__nombre">Constantes fisiológicas</h3>
+        <h3 class="potro__nombre">Constantes fisiológicas Madigan, J.(2013).Manual of the equine neonatal Medicine</h3>
         <ul class="potro__lista">
         <li class="potro__elemento">
             Frecuencia Cardíaca (F.C.) 80-120 lpm
